@@ -14,6 +14,226 @@
 		5D2CD9AA2777840500EB729A /* libSDL2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2CD9A0277782EF00EB729A /* libSDL2.dylib */; };
 		5D2CD9AB2777840500EB729A /* libSDL2.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2CD9A0277782EF00EB729A /* libSDL2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5D2CD9AD2777844900EB729A /* SDL_uikit_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9AC2777844900EB729A /* SDL_uikit_main.c */; };
+		5D2CDB7927778A5C00EB729A /* fheroes2.ico in Resources */ = {isa = PBXBuildFile; fileRef = 5D2CD9D127778A2300EB729A /* fheroes2.ico */; };
+		5D2CDB7A27778A5C00EB729A /* fheroes2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2CD9CF27778A2300EB729A /* fheroes2.png */; };
+		5D2CDB7B27778A5C00EB729A /* fheroes2.rc in Resources */ = {isa = PBXBuildFile; fileRef = 5D2CD9D027778A2300EB729A /* fheroes2.rc */; };
+		5D2CDB7C27778B3A00EB729A /* army_troop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA5927778A2400EB729A /* army_troop.cpp */; };
+		5D2CDB7D27778B3A00EB729A /* dialog_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAC327778A2400EB729A /* dialog_file.cpp */; };
+		5D2CDB7E27778B3A00EB729A /* interface_border.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAFF27778A2400EB729A /* interface_border.cpp */; };
+		5D2CDB7F27778B3A00EB729A /* game_over.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA8127778A2400EB729A /* game_over.cpp */; };
+		5D2CDB8027778B3A00EB729A /* dialog_armyinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAB827778A2400EB729A /* dialog_armyinfo.cpp */; };
+		5D2CDB8127778B3A00EB729A /* view_world.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA2627778A2300EB729A /* view_world.cpp */; };
+		5D2CDB8227778B3A00EB729A /* kingdom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA2427778A2300EB729A /* kingdom.cpp */; };
+		5D2CDB8327778B3A00EB729A /* castle_dialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB1827778A2400EB729A /* castle_dialog.cpp */; };
+		5D2CDB8427778B3A00EB729A /* dialog_recrut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDABE27778A2400EB729A /* dialog_recrut.cpp */; };
+		5D2CDB8527778B3A00EB729A /* heroes_dialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA4927778A2400EB729A /* heroes_dialog.cpp */; };
+		5D2CDB8627778B3A00EB729A /* image_palette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB5227778A2500EB729A /* image_palette.cpp */; };
+		5D2CDB8727778B3A00EB729A /* speed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA2B27778A2300EB729A /* speed.cpp */; };
+		5D2CDB8827778B3A00EB729A /* game_mainmenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA8F27778A2400EB729A /* game_mainmenu.cpp */; };
+		5D2CDB8927778B3A00EB729A /* dialog_quickinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAB927778A2400EB729A /* dialog_quickinfo.cpp */; };
+		5D2CDB8A27778B3A00EB729A /* world.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA7B27778A2400EB729A /* world.cpp */; };
+		5D2CDB8B27778B3A00EB729A /* til2img.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9B627778A2300EB729A /* til2img.cpp */; };
+		5D2CDB8C27778B3A00EB729A /* game_loadgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9527778A2400EB729A /* game_loadgame.cpp */; };
+		5D2CDB8D27778B3A00EB729A /* ground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA0D27778A2300EB729A /* ground.cpp */; };
+		5D2CDB8E27778B3A00EB729A /* dialog_game_settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAAD27778A2400EB729A /* dialog_game_settings.cpp */; };
+		5D2CDB8F27778B3A00EB729A /* objgras.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA6D27778A2400EB729A /* objgras.cpp */; };
+		5D2CDB9027778B3A00EB729A /* timing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB6527778A2500EB729A /* timing.cpp */; };
+		5D2CDB9127778B3A00EB729A /* game_hotkeys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA8827778A2400EB729A /* game_hotkeys.cpp */; };
+		5D2CDB9227778B3A00EB729A /* week.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA3127778A2300EB729A /* week.cpp */; };
+		5D2CDB9327778B3A00EB729A /* ui_button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB0C27778A2400EB729A /* ui_button.cpp */; };
+		5D2CDB9427778B3A00EB729A /* battle_dialogs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9F527778A2300EB729A /* battle_dialogs.cpp */; };
+		5D2CDB9527778B3A00EB729A /* spell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA5227778A2400EB729A /* spell.cpp */; };
+		5D2CDB9627778B3A00EB729A /* luck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA2E27778A2300EB729A /* luck.cpp */; };
+		5D2CDB9727778B3A00EB729A /* captain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB2427778A2400EB729A /* captain.cpp */; };
+		5D2CDB9827778B3A00EB729A /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB4327778A2400EB729A /* image.cpp */; };
+		5D2CDB9927778B3A00EB729A /* interface_gamearea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB0F27778A2400EB729A /* interface_gamearea.cpp */; };
+		5D2CDB9A27778B3A00EB729A /* castle_mageguild.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB2827778A2400EB729A /* castle_mageguild.cpp */; };
+		5D2CDB9B27778B3A00EB729A /* dialog_adventure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAB027778A2400EB729A /* dialog_adventure.cpp */; };
+		5D2CDB9C27778B3A00EB729A /* serialize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB3E27778A2400EB729A /* serialize.cpp */; };
+		5D2CDB9D27778B3A00EB729A /* dialog_giftresources.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDABD27778A2400EB729A /* dialog_giftresources.cpp */; };
+		5D2CDB9E27778B3A00EB729A /* game_video.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9227778A2400EB729A /* game_video.cpp */; };
+		5D2CDB9F27778B3A00EB729A /* battle_command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9FA27778A2300EB729A /* battle_command.cpp */; };
+		5D2CDBA027778B3A00EB729A /* maps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA0A27778A2300EB729A /* maps.cpp */; };
+		5D2CDBA127778B3A00EB729A /* bin2txt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9C327778A2300EB729A /* bin2txt.cpp */; };
+		5D2CDBA227778B3A00EB729A /* core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB4527778A2400EB729A /* core.cpp */; };
+		5D2CDBA327778B3A00EB729A /* dialog_message.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAC627778A2400EB729A /* dialog_message.cpp */; };
+		5D2CDBA427778B3A00EB729A /* interface_radar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAF827778A2400EB729A /* interface_radar.cpp */; };
+		5D2CDBA527778B3A00EB729A /* skill_bar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB0727778A2400EB729A /* skill_bar.cpp */; };
+		5D2CDBA627778B3A00EB729A /* settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAD027778A2400EB729A /* settings.cpp */; };
+		5D2CDBA727778B3A00EB729A /* kingdom_overview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA2727778A2300EB729A /* kingdom_overview.cpp */; };
+		5D2CDBA827778B3A00EB729A /* xmi2mid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB6227778A2500EB729A /* xmi2mid.cpp */; };
+		5D2CDBA927778B3A00EB729A /* dialog_resourceinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAAF27778A2400EB729A /* dialog_resourceinfo.cpp */; };
+		5D2CDBAA27778B3A00EB729A /* heroes_spell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA3C27778A2300EB729A /* heroes_spell.cpp */; };
+		5D2CDBAB27778B3A00EB729A /* objwatr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA5C27778A2400EB729A /* objwatr.cpp */; };
+		5D2CDBAC27778B3A00EB729A /* xmi2mid_cli.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9B727778A2300EB729A /* xmi2mid_cli.cpp */; };
+		5D2CDBAD27778B3A00EB729A /* game_scenarioinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9D27778A2400EB729A /* game_scenarioinfo.cpp */; };
+		5D2CDBAE27778B3A00EB729A /* ai_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAE227778A2400EB729A /* ai_base.cpp */; };
+		5D2CDBAF27778B3A00EB729A /* ui_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAF727778A2400EB729A /* ui_base.cpp */; };
+		5D2CDBB027778B3A00EB729A /* h2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAD427778A2400EB729A /* h2d.cpp */; };
+		5D2CDBB127778B3A00EB729A /* ui_scrollbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAE527778A2400EB729A /* ui_scrollbar.cpp */; };
+		5D2CDBB227778B3A00EB729A /* battle_interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9FD27778A2300EB729A /* battle_interface.cpp */; };
+		5D2CDBB327778B3A00EB729A /* game_interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9627778A2400EB729A /* game_interface.cpp */; };
+		5D2CDBB427778B3A00EB729A /* interface_icons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAF127778A2400EB729A /* interface_icons.cpp */; };
+		5D2CDBB527778B3A00EB729A /* trees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA6227778A2400EB729A /* trees.cpp */; };
+		5D2CDBB627778B3A00EB729A /* campaign_savedata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB1527778A2400EB729A /* campaign_savedata.cpp */; };
+		5D2CDBB727778B3A00EB729A /* ui_text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB0B27778A2400EB729A /* ui_text.cpp */; };
+		5D2CDBB827778B3A00EB729A /* cursor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB0927778A2400EB729A /* cursor.cpp */; };
+		5D2CDBB927778B3A00EB729A /* color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA2527778A2300EB729A /* color.cpp */; };
+		5D2CDBBA27778B3A00EB729A /* monster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB3527778A2400EB729A /* monster.cpp */; };
+		5D2CDBBB27778B3A00EB729A /* resource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB2E27778A2400EB729A /* resource.cpp */; };
+		5D2CDBBC27778B3A00EB729A /* icn2img.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9C227778A2300EB729A /* icn2img.cpp */; };
+		5D2CDBBD27778B3A00EB729A /* dialog_box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAB727778A2400EB729A /* dialog_box.cpp */; };
+		5D2CDBBE27778B3A00EB729A /* mp2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA0727778A2300EB729A /* mp2.cpp */; };
+		5D2CDBBF27778B3A00EB729A /* agg_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB5727778A2500EB729A /* agg_file.cpp */; };
+		5D2CDBC027778B3A00EB729A /* interface_buttons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAE627778A2400EB729A /* interface_buttons.cpp */; };
+		5D2CDBC127778B3A00EB729A /* audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB4C27778A2500EB729A /* audio.cpp */; };
+		5D2CDBC227778B3A00EB729A /* game_newgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA7E27778A2400EB729A /* game_newgame.cpp */; };
+		5D2CDBC327778B3A00EB729A /* ai_normal_spell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDADE27778A2400EB729A /* ai_normal_spell.cpp */; };
+		5D2CDBC427778B3A00EB729A /* tinyconfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB3C27778A2400EB729A /* tinyconfig.cpp */; };
+		5D2CDBC527778B3A00EB729A /* race.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA2F27778A2300EB729A /* race.cpp */; };
+		5D2CDBC627778B3A00EB729A /* logging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB4427778A2400EB729A /* logging.cpp */; };
+		5D2CDBC727778B3A00EB729A /* battle_bridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9F227778A2300EB729A /* battle_bridge.cpp */; };
+		5D2CDBC827778B3A00EB729A /* maps_tiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA1527778A2300EB729A /* maps_tiles.cpp */; };
+		5D2CDBC927778B3A00EB729A /* game_campaign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA8D27778A2400EB729A /* game_campaign.cpp */; };
+		5D2CDBCA27778B3A00EB729A /* artifact_ultimate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB2D27778A2400EB729A /* artifact_ultimate.cpp */; };
+		5D2CDBCB27778B3A00EB729A /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB5927778A2500EB729A /* tools.cpp */; };
+		5D2CDBCC27778B3A00EB729A /* army_bar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA5527778A2400EB729A /* army_bar.cpp */; };
+		5D2CDBCD27778B3A00EB729A /* ai_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAD727778A2400EB729A /* ai_common.cpp */; };
+		5D2CDBCE27778B3A00EB729A /* mageguild.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB2027778A2400EB729A /* mageguild.cpp */; };
+		5D2CDBCF27778B3A00EB729A /* ai_normal_kingdom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDADB27778A2400EB729A /* ai_normal_kingdom.cpp */; };
+		5D2CDBD027778B3A00EB729A /* m82.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9D727778A2300EB729A /* m82.cpp */; };
+		5D2CDBD127778B3A00EB729A /* objswmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA6F27778A2400EB729A /* objswmp.cpp */; };
+		5D2CDBD227778B3A00EB729A /* world_pathfinding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA7627778A2400EB729A /* world_pathfinding.cpp */; };
+		5D2CDBD327778B3A00EB729A /* players.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDACE27778A2400EB729A /* players.cpp */; };
+		5D2CDBD427778B3A00EB729A /* battle_catapult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9F827778A2300EB729A /* battle_catapult.cpp */; };
+		5D2CDBD527778B3A00EB729A /* dialog_system_options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAB427778A2400EB729A /* dialog_system_options.cpp */; };
+		5D2CDBD627778B3A00EB729A /* castle_well.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB2627778A2400EB729A /* castle_well.cpp */; };
+		5D2CDBD727778B3A00EB729A /* dialog_selectfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAA627778A2400EB729A /* dialog_selectfile.cpp */; };
+		5D2CDBD827778B3A00EB729A /* monster_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB3327778A2400EB729A /* monster_info.cpp */; };
+		5D2CDBD927778B3A00EB729A /* buildinginfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB1E27778A2400EB729A /* buildinginfo.cpp */; };
+		5D2CDBDA27778B3A00EB729A /* ui_window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAF627778A2400EB729A /* ui_window.cpp */; };
+		5D2CDBDB27778B3A00EB729A /* fheroes2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9127778A2400EB729A /* fheroes2.cpp */; };
+		5D2CDBDC27778B3A00EB729A /* ai_normal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDADF27778A2400EB729A /* ai_normal.cpp */; };
+		5D2CDBDD27778B3A00EB729A /* castle_building.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB1B27778A2400EB729A /* castle_building.cpp */; };
+		5D2CDBDE27778B3A00EB729A /* translations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB4F27778A2500EB729A /* translations.cpp */; };
+		5D2CDBDF27778B3A00EB729A /* heroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA3627778A2300EB729A /* heroes.cpp */; };
+		5D2CDBE027778B3A00EB729A /* dialog_language_selection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAA927778A2400EB729A /* dialog_language_selection.cpp */; };
+		5D2CDBE127778B3A00EB729A /* puzzle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA2A27778A2300EB729A /* puzzle.cpp */; };
+		5D2CDBE227778B3A00EB729A /* screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB4927778A2500EB729A /* screen.cpp */; };
+		5D2CDBE327778B3A00EB729A /* objtown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA6727778A2400EB729A /* objtown.cpp */; };
+		5D2CDBE427778B3A00EB729A /* world_loadmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA7827778A2400EB729A /* world_loadmap.cpp */; };
+		5D2CDBE527778B3A00EB729A /* battle_tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9F127778A2300EB729A /* battle_tower.cpp */; };
+		5D2CDBE627778B3A00EB729A /* xmi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9DD27778A2300EB729A /* xmi.cpp */; };
+		5D2CDBE727778B3A00EB729A /* objxloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA7427778A2400EB729A /* objxloc.cpp */; };
+		5D2CDBE827778B3A00EB729A /* ui_tool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAE727778A2400EB729A /* ui_tool.cpp */; };
+		5D2CDBE927778B3A00EB729A /* battle_army.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9ED27778A2300EB729A /* battle_army.cpp */; };
+		5D2CDBEA27778B3A00EB729A /* monster_anim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB3827778A2400EB729A /* monster_anim.cpp */; };
+		5D2CDBEB27778B3A00EB729A /* dialog_frameborder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAA427778A2400EB729A /* dialog_frameborder.cpp */; };
+		5D2CDBEC27778B3A00EB729A /* heroes_move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA4327778A2300EB729A /* heroes_move.cpp */; };
+		5D2CDBED27778B3A00EB729A /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9E27778A2400EB729A /* game.cpp */; };
+		5D2CDBEE27778B3A00EB729A /* dialog_chest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAC427778A2400EB729A /* dialog_chest.cpp */; };
+		5D2CDBEF27778B3A00EB729A /* agg_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9E227778A2300EB729A /* agg_image.cpp */; };
+		5D2CDBF027778B3A00EB729A /* heroes_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA3E27778A2300EB729A /* heroes_base.cpp */; };
+		5D2CDBF127778B3A00EB729A /* game_highscores.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA8A27778A2400EB729A /* game_highscores.cpp */; };
+		5D2CDBF227778B3A00EB729A /* dialog_settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAC527778A2400EB729A /* dialog_settings.cpp */; };
+		5D2CDBF327778B3A00EB729A /* extractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9C527778A2300EB729A /* extractor.cpp */; };
+		5D2CDBF427778B3A00EB729A /* system.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB5627778A2500EB729A /* system.cpp */; };
+		5D2CDBF527778B3A00EB729A /* heroes_meeting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA3A27778A2300EB729A /* heroes_meeting.cpp */; };
+		5D2CDBF627778B3A00EB729A /* campaign_scenariodata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB1327778A2400EB729A /* campaign_scenariodata.cpp */; };
+		5D2CDBF727778B3A00EB729A /* skill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA4427778A2300EB729A /* skill.cpp */; };
+		5D2CDBF827778B3A00EB729A /* agg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9D527778A2300EB729A /* agg.cpp */; };
+		5D2CDBF927778B3A00EB729A /* heroes_action.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA4127778A2300EB729A /* heroes_action.cpp */; };
+		5D2CDBFA27778B3A00EB729A /* interface_focus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB0527778A2400EB729A /* interface_focus.cpp */; };
+		5D2CDBFB27778B3A00EB729A /* maps_actions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA0927778A2300EB729A /* maps_actions.cpp */; };
+		5D2CDBFC27778B3A00EB729A /* objsnow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA6127778A2400EB729A /* objsnow.cpp */; };
+		5D2CDBFD27778B3A00EB729A /* interface_status.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAEC27778A2400EB729A /* interface_status.cpp */; };
+		5D2CDBFE27778B3A00EB729A /* heroes_recruits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA3827778A2300EB729A /* heroes_recruits.cpp */; };
+		5D2CDBFF27778B3A00EB729A /* visit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA0C27778A2300EB729A /* visit.cpp */; };
+		5D2CDC0027778B3A00EB729A /* game_mainmenu_ui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9A27778A2400EB729A /* game_mainmenu_ui.cpp */; };
+		5D2CDC0127778B3A00EB729A /* heroes_indicator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA4827778A2400EB729A /* heroes_indicator.cpp */; };
+		5D2CDC0227778B3A00EB729A /* ui_dialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAF927778A2400EB729A /* ui_dialog.cpp */; };
+		5D2CDC0327778B3A00EB729A /* smk_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB4727778A2500EB729A /* smk_decoder.cpp */; };
+		5D2CDC0427778B3A00EB729A /* game_static.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA7F27778A2400EB729A /* game_static.cpp */; };
+		5D2CDC0527778B3A00EB729A /* game_credits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA8927778A2400EB729A /* game_credits.cpp */; };
+		5D2CDC0627778B3A00EB729A /* objcrck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA7127778A2400EB729A /* objcrck.cpp */; };
+		5D2CDC0727778B3A00EB729A /* castle_ui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB1C27778A2400EB729A /* castle_ui.cpp */; };
+		5D2CDC0827778B3A00EB729A /* castle_tavern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB2327778A2400EB729A /* castle_tavern.cpp */; };
+		5D2CDC0927778B3A00EB729A /* dialog_selectitems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDABC27778A2400EB729A /* dialog_selectitems.cpp */; };
+		5D2CDC0A27778B3A00EB729A /* maps_tiles_quantity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA1927778A2300EB729A /* maps_tiles_quantity.cpp */; };
+		5D2CDC0B27778B3A00EB729A /* dialog_arena.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAA827778A2400EB729A /* dialog_arena.cpp */; };
+		5D2CDC0C27778B3A00EB729A /* dialog_skillinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAAB27778A2400EB729A /* dialog_skillinfo.cpp */; };
+		5D2CDC0D27778B3A00EB729A /* payment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA2C27778A2300EB729A /* payment.cpp */; };
+		5D2CDC0E27778B3A00EB729A /* castle_building_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB2227778A2400EB729A /* castle_building_info.cpp */; };
+		5D2CDC0F27778B3A00EB729A /* zzlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB5127778A2500EB729A /* zzlib.cpp */; };
+		5D2CDC1027778B3A00EB729A /* statusbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAF227778A2400EB729A /* statusbar.cpp */; };
+		5D2CDC1127778B3A00EB729A /* ai_normal_castle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAE127778A2400EB729A /* ai_normal_castle.cpp */; };
+		5D2CDC1227778B3A00EB729A /* text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAE927778A2400EB729A /* text.cpp */; };
+		5D2CDC1327778B3A00EB729A /* player_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAE827778A2400EB729A /* player_info.cpp */; };
+		5D2CDC1427778B3A00EB729A /* world_regions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA7927778A2400EB729A /* world_regions.cpp */; };
+		5D2CDC1527778B3A00EB729A /* ai_normal_battle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDADD27778A2400EB729A /* ai_normal_battle.cpp */; };
+		5D2CDC1627778B3A00EB729A /* dialog_spellinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAAE27778A2400EB729A /* dialog_spellinfo.cpp */; };
+		5D2CDC1727778B3A00EB729A /* game_startgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA8C27778A2400EB729A /* game_startgame.cpp */; };
+		5D2CDC1827778B3A00EB729A /* bitmodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDACB27778A2400EB729A /* bitmodes.cpp */; };
+		5D2CDC1927778B3A00EB729A /* interface_events.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB0227778A2400EB729A /* interface_events.cpp */; };
+		5D2CDC1A27778B3A00EB729A /* battle_pathfinding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9E927778A2300EB729A /* battle_pathfinding.cpp */; };
+		5D2CDC1B27778B3A00EB729A /* image_tool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB4B27778A2500EB729A /* image_tool.cpp */; };
+		5D2CDC1C27778B3A00EB729A /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA1B27778A2300EB729A /* position.cpp */; };
+		5D2CDC1D27778B3A00EB729A /* castle_town.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB1927778A2400EB729A /* castle_town.cpp */; };
+		5D2CDC1E27778B3A00EB729A /* game_delays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9827778A2400EB729A /* game_delays.cpp */; };
+		5D2CDC1F27778B3A00EB729A /* dialog_thievesguild.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAC127778A2400EB729A /* dialog_thievesguild.cpp */; };
+		5D2CDC2027778B3A00EB729A /* mounts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA6C27778A2400EB729A /* mounts.cpp */; };
+		5D2CDC2127778B3A00EB729A /* mus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9E027778A2300EB729A /* mus.cpp */; };
+		5D2CDC2227778B3A00EB729A /* battle_board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9EC27778A2300EB729A /* battle_board.cpp */; };
+		5D2CDC2327778B3A00EB729A /* dialog_resolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAB127778A2400EB729A /* dialog_resolution.cpp */; };
+		5D2CDC2427778B3A00EB729A /* dialog_selectcount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAA327778A2400EB729A /* dialog_selectcount.cpp */; };
+		5D2CDC2527778B3A00EB729A /* dialog_spriteinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAAA27778A2400EB729A /* dialog_spriteinfo.cpp */; };
+		5D2CDC2627778B3A00EB729A /* mp2_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA0627778A2300EB729A /* mp2_helper.cpp */; };
+		5D2CDC2727778B3A00EB729A /* battle_arena.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9EE27778A2300EB729A /* battle_arena.cpp */; };
+		5D2CDC2827778B3A00EB729A /* spell_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA4D27778A2400EB729A /* spell_info.cpp */; };
+		5D2CDC2927778B3A00EB729A /* battle_cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9F727778A2300EB729A /* battle_cell.cpp */; };
+		5D2CDC2A27778B3A00EB729A /* objdsrt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA6027778A2400EB729A /* objdsrt.cpp */; };
+		5D2CDC2B27778B3A00EB729A /* campaign_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB1427778A2400EB729A /* campaign_data.cpp */; };
+		5D2CDC2C27778B3A00EB729A /* localevent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB5F27778A2500EB729A /* localevent.cpp */; };
+		5D2CDC2D27778B3A00EB729A /* ui_language.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB0327778A2400EB729A /* ui_language.cpp */; };
+		5D2CDC2E27778B3A00EB729A /* spell_book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA4F27778A2400EB729A /* spell_book.cpp */; };
+		5D2CDC2F27778B3A00EB729A /* battle_troop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9F327778A2300EB729A /* battle_troop.cpp */; };
+		5D2CDC3027778B3A00EB729A /* bin_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9DA27778A2300EB729A /* bin_info.cpp */; };
+		5D2CDC3127778B3A00EB729A /* h2d_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAD227778A2400EB729A /* h2d_file.cpp */; };
+		5D2CDC3227778B3A00EB729A /* rand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB5427778A2500EB729A /* rand.cpp */; };
+		5D2CDC3327778B3A00EB729A /* objdirt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA6827778A2400EB729A /* objdirt.cpp */; };
+		5D2CDC3427778B3A00EB729A /* game_io.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9427778A2400EB729A /* game_io.cpp */; };
+		5D2CDC3527778B3A00EB729A /* battle_action.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA0327778A2300EB729A /* battle_action.cpp */; };
+		5D2CDC3627778B3A00EB729A /* battle_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9E527778A2300EB729A /* battle_main.cpp */; };
+		5D2CDC3727778B3A00EB729A /* direction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA4727778A2400EB729A /* direction.cpp */; };
+		5D2CDC3827778B3A00EB729A /* maps_objects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA1427778A2300EB729A /* maps_objects.cpp */; };
+		5D2CDC3927778B3A00EB729A /* spell_storage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA5127778A2400EB729A /* spell_storage.cpp */; };
+		5D2CDC3A27778B3A00EB729A /* battle_grave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9FF27778A2300EB729A /* battle_grave.cpp */; };
+		5D2CDC3B27778B3A00EB729A /* objmult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA6A27778A2400EB729A /* objmult.cpp */; };
+		5D2CDC3C27778B3A00EB729A /* pal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB4E27778A2500EB729A /* pal.cpp */; };
+		5D2CDC3D27778B3A00EB729A /* dialog_selectscenario.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAC027778A2400EB729A /* dialog_selectscenario.cpp */; };
+		5D2CDC3E27778B3A00EB729A /* interface_cpanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAED27778A2400EB729A /* interface_cpanel.cpp */; };
+		5D2CDC3F27778B3A00EB729A /* dialog_guardian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAB527778A2400EB729A /* dialog_guardian.cpp */; };
+		5D2CDC4027778B3A00EB729A /* route.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA4227778A2300EB729A /* route.cpp */; };
+		5D2CDC4127778B3A00EB729A /* profit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA2327778A2300EB729A /* profit.cpp */; };
+		5D2CDC4227778B3A00EB729A /* battle_animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9FE27778A2300EB729A /* battle_animation.cpp */; };
+		5D2CDC4327778B3A00EB729A /* objlava.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA6427778A2400EB729A /* objlava.cpp */; };
+		5D2CDC4427778B3A00EB729A /* maps_fileinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA0E27778A2300EB729A /* maps_fileinfo.cpp */; };
+		5D2CDC4527778B3A00EB729A /* dialog_levelup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDABA27778A2400EB729A /* dialog_levelup.cpp */; };
+		5D2CDC4627778B3A00EB729A /* dialog_marketplace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAB627778A2400EB729A /* dialog_marketplace.cpp */; };
+		5D2CDC4727778B3A00EB729A /* 82m2wav.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9BB27778A2300EB729A /* 82m2wav.cpp */; };
+		5D2CDC4827778B3A00EB729A /* army.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA5627778A2400EB729A /* army.cpp */; };
+		5D2CDC4927778B3A00EB729A /* icn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9DF27778A2300EB729A /* icn.cpp */; };
+		5D2CDC4A27778B3A00EB729A /* game_logo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9727778A2400EB729A /* game_logo.cpp */; };
+		5D2CDC4B27778B3B00EB729A /* ai_normal_hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAE027778A2400EB729A /* ai_normal_hero.cpp */; };
+		5D2CDC4C27778B3B00EB729A /* difficulty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA8327778A2400EB729A /* difficulty.cpp */; };
+		5D2CDC4D27778B3B00EB729A /* castle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB2A27778A2400EB729A /* castle.cpp */; };
+		5D2CDC4E27778B3B00EB729A /* dialog_gameinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAAC27778A2400EB729A /* dialog_gameinfo.cpp */; };
+		5D2CDC4F27778B3B00EB729A /* morale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA3227778A2300EB729A /* morale.cpp */; };
+		5D2CDC5027778B3B00EB729A /* dialog_buyboat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDABB27778A2400EB729A /* dialog_buyboat.cpp */; };
+		5D2CDC5127778B3B00EB729A /* ai_hero_action.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAD827778A2400EB729A /* ai_hero_action.cpp */; };
+		5D2CDC5227778B3B00EB729A /* dir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB5327778A2500EB729A /* dir.cpp */; };
+		5D2CDC5327778B3B00EB729A /* artifact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB2F27778A2400EB729A /* artifact.cpp */; };
+		5D2CDC5427778B3B00EB729A /* battle_only.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9E827778A2300EB729A /* battle_only.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,7 +330,433 @@
 		5D2CD97B2777821E00EB729A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D2CD984277782EF00EB729A /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = SDL2/Xcode/SDL/SDL.xcodeproj; sourceTree = "<group>"; };
 		5D2CD9AC2777844900EB729A /* SDL_uikit_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_uikit_main.c; sourceTree = "<group>"; };
-		5D2CD9AF2777860500EB729A /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../src; sourceTree = "<group>"; };
+		5D2CD9B227778A2300EB729A /* Makefile.mingw */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.mingw; sourceTree = "<group>"; };
+		5D2CD9B327778A2300EB729A /* Makefile.vita */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.vita; sourceTree = "<group>"; };
+		5D2CD9B527778A2300EB729A /* icn2img-vs2019.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "icn2img-vs2019.vcxproj"; sourceTree = "<group>"; };
+		5D2CD9B627778A2300EB729A /* til2img.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = til2img.cpp; sourceTree = "<group>"; };
+		5D2CD9B727778A2300EB729A /* xmi2mid_cli.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = xmi2mid_cli.cpp; sourceTree = "<group>"; };
+		5D2CD9B827778A2300EB729A /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		5D2CD9B927778A2300EB729A /* 82m2wav-vs2015.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "82m2wav-vs2015.vcxproj"; sourceTree = "<group>"; };
+		5D2CD9BA27778A2300EB729A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5D2CD9BB27778A2300EB729A /* 82m2wav.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 82m2wav.cpp; sourceTree = "<group>"; };
+		5D2CD9BC27778A2300EB729A /* cdinfo.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = cdinfo.py; sourceTree = "<group>"; };
+		5D2CD9BD27778A2300EB729A /* bin2txt-vs2019.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "bin2txt-vs2019.vcxproj"; sourceTree = "<group>"; };
+		5D2CD9BE27778A2300EB729A /* extractor-vs2019.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "extractor-vs2019.vcxproj"; sourceTree = "<group>"; };
+		5D2CD9BF27778A2300EB729A /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		5D2CD9C027778A2300EB729A /* bin2txt-vs2015.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "bin2txt-vs2015.vcxproj"; sourceTree = "<group>"; };
+		5D2CD9C127778A2300EB729A /* extractor-vs2015.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "extractor-vs2015.vcxproj"; sourceTree = "<group>"; };
+		5D2CD9C227778A2300EB729A /* icn2img.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = icn2img.cpp; sourceTree = "<group>"; };
+		5D2CD9C327778A2300EB729A /* bin2txt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bin2txt.cpp; sourceTree = "<group>"; };
+		5D2CD9C427778A2300EB729A /* til2img-vs2015.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "til2img-vs2015.vcxproj"; sourceTree = "<group>"; };
+		5D2CD9C527778A2300EB729A /* extractor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = extractor.cpp; sourceTree = "<group>"; };
+		5D2CD9C627778A2300EB729A /* xmi2mid-vs2015.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "xmi2mid-vs2015.vcxproj"; sourceTree = "<group>"; };
+		5D2CD9C727778A2300EB729A /* icn2img-vs2015.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "icn2img-vs2015.vcxproj"; sourceTree = "<group>"; };
+		5D2CD9C827778A2300EB729A /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		5D2CD9CA27778A2300EB729A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5D2CD9CB27778A2300EB729A /* Makefile.switch */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.switch; sourceTree = "<group>"; };
+		5D2CD9CC27778A2300EB729A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5D2CD9CD27778A2300EB729A /* Makefile.mingw32 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.mingw32; sourceTree = "<group>"; };
+		5D2CD9CF27778A2300EB729A /* fheroes2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fheroes2.png; sourceTree = "<group>"; };
+		5D2CD9D027778A2300EB729A /* fheroes2.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = fheroes2.rc; sourceTree = "<group>"; };
+		5D2CD9D127778A2300EB729A /* fheroes2.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = fheroes2.ico; sourceTree = "<group>"; };
+		5D2CD9D227778A2300EB729A /* Makefile.osx */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.osx; sourceTree = "<group>"; };
+		5D2CD9D527778A2300EB729A /* agg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = agg.cpp; sourceTree = "<group>"; };
+		5D2CD9D627778A2300EB729A /* xmi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xmi.h; sourceTree = "<group>"; };
+		5D2CD9D727778A2300EB729A /* m82.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = m82.cpp; sourceTree = "<group>"; };
+		5D2CD9D827778A2300EB729A /* agg_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = agg_image.h; sourceTree = "<group>"; };
+		5D2CD9D927778A2300EB729A /* icn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = icn.h; sourceTree = "<group>"; };
+		5D2CD9DA27778A2300EB729A /* bin_info.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bin_info.cpp; sourceTree = "<group>"; };
+		5D2CD9DB27778A2300EB729A /* m82.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m82.h; sourceTree = "<group>"; };
+		5D2CD9DC27778A2300EB729A /* til.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = til.h; sourceTree = "<group>"; };
+		5D2CD9DD27778A2300EB729A /* xmi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = xmi.cpp; sourceTree = "<group>"; };
+		5D2CD9DE27778A2300EB729A /* bin_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bin_info.h; sourceTree = "<group>"; };
+		5D2CD9DF27778A2300EB729A /* icn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = icn.cpp; sourceTree = "<group>"; };
+		5D2CD9E027778A2300EB729A /* mus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mus.cpp; sourceTree = "<group>"; };
+		5D2CD9E127778A2300EB729A /* mus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mus.h; sourceTree = "<group>"; };
+		5D2CD9E227778A2300EB729A /* agg_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = agg_image.cpp; sourceTree = "<group>"; };
+		5D2CD9E327778A2300EB729A /* agg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = agg.h; sourceTree = "<group>"; };
+		5D2CD9E527778A2300EB729A /* battle_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_main.cpp; sourceTree = "<group>"; };
+		5D2CD9E627778A2300EB729A /* battle_cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_cell.h; sourceTree = "<group>"; };
+		5D2CD9E727778A2300EB729A /* battle_tower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_tower.h; sourceTree = "<group>"; };
+		5D2CD9E827778A2300EB729A /* battle_only.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_only.cpp; sourceTree = "<group>"; };
+		5D2CD9E927778A2300EB729A /* battle_pathfinding.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_pathfinding.cpp; sourceTree = "<group>"; };
+		5D2CD9EA27778A2300EB729A /* battle_catapult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_catapult.h; sourceTree = "<group>"; };
+		5D2CD9EB27778A2300EB729A /* battle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle.h; sourceTree = "<group>"; };
+		5D2CD9EC27778A2300EB729A /* battle_board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_board.cpp; sourceTree = "<group>"; };
+		5D2CD9ED27778A2300EB729A /* battle_army.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_army.cpp; sourceTree = "<group>"; };
+		5D2CD9EE27778A2300EB729A /* battle_arena.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_arena.cpp; sourceTree = "<group>"; };
+		5D2CD9EF27778A2300EB729A /* battle_pathfinding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_pathfinding.h; sourceTree = "<group>"; };
+		5D2CD9F027778A2300EB729A /* battle_interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_interface.h; sourceTree = "<group>"; };
+		5D2CD9F127778A2300EB729A /* battle_tower.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_tower.cpp; sourceTree = "<group>"; };
+		5D2CD9F227778A2300EB729A /* battle_bridge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_bridge.cpp; sourceTree = "<group>"; };
+		5D2CD9F327778A2300EB729A /* battle_troop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_troop.cpp; sourceTree = "<group>"; };
+		5D2CD9F427778A2300EB729A /* battle_troop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_troop.h; sourceTree = "<group>"; };
+		5D2CD9F527778A2300EB729A /* battle_dialogs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_dialogs.cpp; sourceTree = "<group>"; };
+		5D2CD9F627778A2300EB729A /* battle_army.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_army.h; sourceTree = "<group>"; };
+		5D2CD9F727778A2300EB729A /* battle_cell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_cell.cpp; sourceTree = "<group>"; };
+		5D2CD9F827778A2300EB729A /* battle_catapult.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_catapult.cpp; sourceTree = "<group>"; };
+		5D2CD9F927778A2300EB729A /* battle_only.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_only.h; sourceTree = "<group>"; };
+		5D2CD9FA27778A2300EB729A /* battle_command.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_command.cpp; sourceTree = "<group>"; };
+		5D2CD9FB27778A2300EB729A /* battle_animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_animation.h; sourceTree = "<group>"; };
+		5D2CD9FC27778A2300EB729A /* battle_board.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_board.h; sourceTree = "<group>"; };
+		5D2CD9FD27778A2300EB729A /* battle_interface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_interface.cpp; sourceTree = "<group>"; };
+		5D2CD9FE27778A2300EB729A /* battle_animation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_animation.cpp; sourceTree = "<group>"; };
+		5D2CD9FF27778A2300EB729A /* battle_grave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_grave.cpp; sourceTree = "<group>"; };
+		5D2CDA0027778A2300EB729A /* battle_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_bridge.h; sourceTree = "<group>"; };
+		5D2CDA0127778A2300EB729A /* battle_command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_command.h; sourceTree = "<group>"; };
+		5D2CDA0227778A2300EB729A /* battle_grave.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_grave.h; sourceTree = "<group>"; };
+		5D2CDA0327778A2300EB729A /* battle_action.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battle_action.cpp; sourceTree = "<group>"; };
+		5D2CDA0427778A2300EB729A /* battle_arena.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battle_arena.h; sourceTree = "<group>"; };
+		5D2CDA0627778A2300EB729A /* mp2_helper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp2_helper.cpp; sourceTree = "<group>"; };
+		5D2CDA0727778A2300EB729A /* mp2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp2.cpp; sourceTree = "<group>"; };
+		5D2CDA0827778A2300EB729A /* mp2_helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp2_helper.h; sourceTree = "<group>"; };
+		5D2CDA0927778A2300EB729A /* maps_actions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maps_actions.cpp; sourceTree = "<group>"; };
+		5D2CDA0A27778A2300EB729A /* maps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maps.cpp; sourceTree = "<group>"; };
+		5D2CDA0B27778A2300EB729A /* visit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = visit.h; sourceTree = "<group>"; };
+		5D2CDA0C27778A2300EB729A /* visit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = visit.cpp; sourceTree = "<group>"; };
+		5D2CDA0D27778A2300EB729A /* ground.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ground.cpp; sourceTree = "<group>"; };
+		5D2CDA0E27778A2300EB729A /* maps_fileinfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maps_fileinfo.cpp; sourceTree = "<group>"; };
+		5D2CDA0F27778A2300EB729A /* maps_fileinfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maps_fileinfo.h; sourceTree = "<group>"; };
+		5D2CDA1027778A2300EB729A /* maps_actions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maps_actions.h; sourceTree = "<group>"; };
+		5D2CDA1127778A2300EB729A /* maps_tiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maps_tiles.h; sourceTree = "<group>"; };
+		5D2CDA1227778A2300EB729A /* mp2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp2.h; sourceTree = "<group>"; };
+		5D2CDA1327778A2300EB729A /* pairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pairs.h; sourceTree = "<group>"; };
+		5D2CDA1427778A2300EB729A /* maps_objects.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maps_objects.cpp; sourceTree = "<group>"; };
+		5D2CDA1527778A2300EB729A /* maps_tiles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maps_tiles.cpp; sourceTree = "<group>"; };
+		5D2CDA1627778A2300EB729A /* maps_objects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maps_objects.h; sourceTree = "<group>"; };
+		5D2CDA1727778A2300EB729A /* ground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ground.h; sourceTree = "<group>"; };
+		5D2CDA1827778A2300EB729A /* maps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maps.h; sourceTree = "<group>"; };
+		5D2CDA1927778A2300EB729A /* maps_tiles_quantity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = maps_tiles_quantity.cpp; sourceTree = "<group>"; };
+		5D2CDA1A27778A2300EB729A /* position.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = position.h; sourceTree = "<group>"; };
+		5D2CDA1B27778A2300EB729A /* position.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = position.cpp; sourceTree = "<group>"; };
+		5D2CDA1C27778A2300EB729A /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		5D2CDA1E27778A2300EB729A /* profit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = profit.h; sourceTree = "<group>"; };
+		5D2CDA1F27778A2300EB729A /* speed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = speed.h; sourceTree = "<group>"; };
+		5D2CDA2027778A2300EB729A /* view_world.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = view_world.h; sourceTree = "<group>"; };
+		5D2CDA2127778A2300EB729A /* morale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = morale.h; sourceTree = "<group>"; };
+		5D2CDA2227778A2300EB729A /* color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		5D2CDA2327778A2300EB729A /* profit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = profit.cpp; sourceTree = "<group>"; };
+		5D2CDA2427778A2300EB729A /* kingdom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kingdom.cpp; sourceTree = "<group>"; };
+		5D2CDA2527778A2300EB729A /* color.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = color.cpp; sourceTree = "<group>"; };
+		5D2CDA2627778A2300EB729A /* view_world.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = view_world.cpp; sourceTree = "<group>"; };
+		5D2CDA2727778A2300EB729A /* kingdom_overview.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kingdom_overview.cpp; sourceTree = "<group>"; };
+		5D2CDA2827778A2300EB729A /* payment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = payment.h; sourceTree = "<group>"; };
+		5D2CDA2927778A2300EB729A /* week.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = week.h; sourceTree = "<group>"; };
+		5D2CDA2A27778A2300EB729A /* puzzle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = puzzle.cpp; sourceTree = "<group>"; };
+		5D2CDA2B27778A2300EB729A /* speed.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = speed.cpp; sourceTree = "<group>"; };
+		5D2CDA2C27778A2300EB729A /* payment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = payment.cpp; sourceTree = "<group>"; };
+		5D2CDA2D27778A2300EB729A /* luck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = luck.h; sourceTree = "<group>"; };
+		5D2CDA2E27778A2300EB729A /* luck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = luck.cpp; sourceTree = "<group>"; };
+		5D2CDA2F27778A2300EB729A /* race.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = race.cpp; sourceTree = "<group>"; };
+		5D2CDA3027778A2300EB729A /* race.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = race.h; sourceTree = "<group>"; };
+		5D2CDA3127778A2300EB729A /* week.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = week.cpp; sourceTree = "<group>"; };
+		5D2CDA3227778A2300EB729A /* morale.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = morale.cpp; sourceTree = "<group>"; };
+		5D2CDA3327778A2300EB729A /* puzzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = puzzle.h; sourceTree = "<group>"; };
+		5D2CDA3427778A2300EB729A /* kingdom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kingdom.h; sourceTree = "<group>"; };
+		5D2CDA3627778A2300EB729A /* heroes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heroes.cpp; sourceTree = "<group>"; };
+		5D2CDA3727778A2300EB729A /* skill_static.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skill_static.h; sourceTree = "<group>"; };
+		5D2CDA3827778A2300EB729A /* heroes_recruits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heroes_recruits.cpp; sourceTree = "<group>"; };
+		5D2CDA3927778A2300EB729A /* skill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skill.h; sourceTree = "<group>"; };
+		5D2CDA3A27778A2300EB729A /* heroes_meeting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heroes_meeting.cpp; sourceTree = "<group>"; };
+		5D2CDA3B27778A2300EB729A /* route.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		5D2CDA3C27778A2300EB729A /* heroes_spell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heroes_spell.cpp; sourceTree = "<group>"; };
+		5D2CDA3D27778A2300EB729A /* heroes_indicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = heroes_indicator.h; sourceTree = "<group>"; };
+		5D2CDA3E27778A2300EB729A /* heroes_base.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heroes_base.cpp; sourceTree = "<group>"; };
+		5D2CDA3F27778A2300EB729A /* heroes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = heroes.h; sourceTree = "<group>"; };
+		5D2CDA4027778A2300EB729A /* direction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = direction.h; sourceTree = "<group>"; };
+		5D2CDA4127778A2300EB729A /* heroes_action.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heroes_action.cpp; sourceTree = "<group>"; };
+		5D2CDA4227778A2300EB729A /* route.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = route.cpp; sourceTree = "<group>"; };
+		5D2CDA4327778A2300EB729A /* heroes_move.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heroes_move.cpp; sourceTree = "<group>"; };
+		5D2CDA4427778A2300EB729A /* skill.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = skill.cpp; sourceTree = "<group>"; };
+		5D2CDA4527778A2300EB729A /* heroes_base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = heroes_base.h; sourceTree = "<group>"; };
+		5D2CDA4627778A2300EB729A /* heroes_recruits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = heroes_recruits.h; sourceTree = "<group>"; };
+		5D2CDA4727778A2400EB729A /* direction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = direction.cpp; sourceTree = "<group>"; };
+		5D2CDA4827778A2400EB729A /* heroes_indicator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heroes_indicator.cpp; sourceTree = "<group>"; };
+		5D2CDA4927778A2400EB729A /* heroes_dialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heroes_dialog.cpp; sourceTree = "<group>"; };
+		5D2CDA4B27778A2400EB729A /* spell_storage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spell_storage.h; sourceTree = "<group>"; };
+		5D2CDA4C27778A2400EB729A /* spell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spell.h; sourceTree = "<group>"; };
+		5D2CDA4D27778A2400EB729A /* spell_info.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spell_info.cpp; sourceTree = "<group>"; };
+		5D2CDA4E27778A2400EB729A /* spell_book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spell_book.h; sourceTree = "<group>"; };
+		5D2CDA4F27778A2400EB729A /* spell_book.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spell_book.cpp; sourceTree = "<group>"; };
+		5D2CDA5027778A2400EB729A /* spell_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spell_info.h; sourceTree = "<group>"; };
+		5D2CDA5127778A2400EB729A /* spell_storage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spell_storage.cpp; sourceTree = "<group>"; };
+		5D2CDA5227778A2400EB729A /* spell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spell.cpp; sourceTree = "<group>"; };
+		5D2CDA5427778A2400EB729A /* army_troop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = army_troop.h; sourceTree = "<group>"; };
+		5D2CDA5527778A2400EB729A /* army_bar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = army_bar.cpp; sourceTree = "<group>"; };
+		5D2CDA5627778A2400EB729A /* army.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = army.cpp; sourceTree = "<group>"; };
+		5D2CDA5727778A2400EB729A /* army_bar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = army_bar.h; sourceTree = "<group>"; };
+		5D2CDA5827778A2400EB729A /* army.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = army.h; sourceTree = "<group>"; };
+		5D2CDA5927778A2400EB729A /* army_troop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = army_troop.cpp; sourceTree = "<group>"; };
+		5D2CDA5B27778A2400EB729A /* objtown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objtown.h; sourceTree = "<group>"; };
+		5D2CDA5C27778A2400EB729A /* objwatr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objwatr.cpp; sourceTree = "<group>"; };
+		5D2CDA5D27778A2400EB729A /* objdirt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objdirt.h; sourceTree = "<group>"; };
+		5D2CDA5E27778A2400EB729A /* objlava.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objlava.h; sourceTree = "<group>"; };
+		5D2CDA5F27778A2400EB729A /* objgras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objgras.h; sourceTree = "<group>"; };
+		5D2CDA6027778A2400EB729A /* objdsrt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objdsrt.cpp; sourceTree = "<group>"; };
+		5D2CDA6127778A2400EB729A /* objsnow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objsnow.cpp; sourceTree = "<group>"; };
+		5D2CDA6227778A2400EB729A /* trees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = trees.cpp; sourceTree = "<group>"; };
+		5D2CDA6327778A2400EB729A /* objcrck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objcrck.h; sourceTree = "<group>"; };
+		5D2CDA6427778A2400EB729A /* objlava.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objlava.cpp; sourceTree = "<group>"; };
+		5D2CDA6527778A2400EB729A /* trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
+		5D2CDA6627778A2400EB729A /* objxloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objxloc.h; sourceTree = "<group>"; };
+		5D2CDA6727778A2400EB729A /* objtown.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objtown.cpp; sourceTree = "<group>"; };
+		5D2CDA6827778A2400EB729A /* objdirt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objdirt.cpp; sourceTree = "<group>"; };
+		5D2CDA6927778A2400EB729A /* objsnow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objsnow.h; sourceTree = "<group>"; };
+		5D2CDA6A27778A2400EB729A /* objmult.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objmult.cpp; sourceTree = "<group>"; };
+		5D2CDA6B27778A2400EB729A /* mounts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mounts.h; sourceTree = "<group>"; };
+		5D2CDA6C27778A2400EB729A /* mounts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mounts.cpp; sourceTree = "<group>"; };
+		5D2CDA6D27778A2400EB729A /* objgras.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objgras.cpp; sourceTree = "<group>"; };
+		5D2CDA6E27778A2400EB729A /* objmult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objmult.h; sourceTree = "<group>"; };
+		5D2CDA6F27778A2400EB729A /* objswmp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objswmp.cpp; sourceTree = "<group>"; };
+		5D2CDA7027778A2400EB729A /* objwatr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objwatr.h; sourceTree = "<group>"; };
+		5D2CDA7127778A2400EB729A /* objcrck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objcrck.cpp; sourceTree = "<group>"; };
+		5D2CDA7227778A2400EB729A /* objswmp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objswmp.h; sourceTree = "<group>"; };
+		5D2CDA7327778A2400EB729A /* objdsrt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objdsrt.h; sourceTree = "<group>"; };
+		5D2CDA7427778A2400EB729A /* objxloc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = objxloc.cpp; sourceTree = "<group>"; };
+		5D2CDA7627778A2400EB729A /* world_pathfinding.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = world_pathfinding.cpp; sourceTree = "<group>"; };
+		5D2CDA7727778A2400EB729A /* world_pathfinding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = world_pathfinding.h; sourceTree = "<group>"; };
+		5D2CDA7827778A2400EB729A /* world_loadmap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = world_loadmap.cpp; sourceTree = "<group>"; };
+		5D2CDA7927778A2400EB729A /* world_regions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = world_regions.cpp; sourceTree = "<group>"; };
+		5D2CDA7A27778A2400EB729A /* world.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = world.h; sourceTree = "<group>"; };
+		5D2CDA7B27778A2400EB729A /* world.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = world.cpp; sourceTree = "<group>"; };
+		5D2CDA7C27778A2400EB729A /* world_regions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = world_regions.h; sourceTree = "<group>"; };
+		5D2CDA7E27778A2400EB729A /* game_newgame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_newgame.cpp; sourceTree = "<group>"; };
+		5D2CDA7F27778A2400EB729A /* game_static.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_static.cpp; sourceTree = "<group>"; };
+		5D2CDA8027778A2400EB729A /* game_io.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_io.h; sourceTree = "<group>"; };
+		5D2CDA8127778A2400EB729A /* game_over.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_over.cpp; sourceTree = "<group>"; };
+		5D2CDA8227778A2400EB729A /* game_delays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_delays.h; sourceTree = "<group>"; };
+		5D2CDA8327778A2400EB729A /* difficulty.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = difficulty.cpp; sourceTree = "<group>"; };
+		5D2CDA8427778A2400EB729A /* game_mainmenu_ui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_mainmenu_ui.h; sourceTree = "<group>"; };
+		5D2CDA8527778A2400EB729A /* game_video_type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_video_type.h; sourceTree = "<group>"; };
+		5D2CDA8627778A2400EB729A /* game_over.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_over.h; sourceTree = "<group>"; };
+		5D2CDA8727778A2400EB729A /* game_credits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_credits.h; sourceTree = "<group>"; };
+		5D2CDA8827778A2400EB729A /* game_hotkeys.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_hotkeys.cpp; sourceTree = "<group>"; };
+		5D2CDA8927778A2400EB729A /* game_credits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_credits.cpp; sourceTree = "<group>"; };
+		5D2CDA8A27778A2400EB729A /* game_highscores.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_highscores.cpp; sourceTree = "<group>"; };
+		5D2CDA8B27778A2400EB729A /* game_static.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_static.h; sourceTree = "<group>"; };
+		5D2CDA8C27778A2400EB729A /* game_startgame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_startgame.cpp; sourceTree = "<group>"; };
+		5D2CDA8D27778A2400EB729A /* game_campaign.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_campaign.cpp; sourceTree = "<group>"; };
+		5D2CDA8E27778A2400EB729A /* game_logo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_logo.h; sourceTree = "<group>"; };
+		5D2CDA8F27778A2400EB729A /* game_mainmenu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_mainmenu.cpp; sourceTree = "<group>"; };
+		5D2CDA9027778A2400EB729A /* game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		5D2CDA9127778A2400EB729A /* fheroes2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fheroes2.cpp; sourceTree = "<group>"; };
+		5D2CDA9227778A2400EB729A /* game_video.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_video.cpp; sourceTree = "<group>"; };
+		5D2CDA9327778A2400EB729A /* game_mode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_mode.h; sourceTree = "<group>"; };
+		5D2CDA9427778A2400EB729A /* game_io.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_io.cpp; sourceTree = "<group>"; };
+		5D2CDA9527778A2400EB729A /* game_loadgame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_loadgame.cpp; sourceTree = "<group>"; };
+		5D2CDA9627778A2400EB729A /* game_interface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_interface.cpp; sourceTree = "<group>"; };
+		5D2CDA9727778A2400EB729A /* game_logo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_logo.cpp; sourceTree = "<group>"; };
+		5D2CDA9827778A2400EB729A /* game_delays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_delays.cpp; sourceTree = "<group>"; };
+		5D2CDA9927778A2400EB729A /* difficulty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = difficulty.h; sourceTree = "<group>"; };
+		5D2CDA9A27778A2400EB729A /* game_mainmenu_ui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_mainmenu_ui.cpp; sourceTree = "<group>"; };
+		5D2CDA9B27778A2400EB729A /* game_video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_video.h; sourceTree = "<group>"; };
+		5D2CDA9C27778A2400EB729A /* game_interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_interface.h; sourceTree = "<group>"; };
+		5D2CDA9D27778A2400EB729A /* game_scenarioinfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_scenarioinfo.cpp; sourceTree = "<group>"; };
+		5D2CDA9E27778A2400EB729A /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		5D2CDAA027778A2400EB729A /* embedded_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = embedded_image.h; sourceTree = "<group>"; };
+		5D2CDAA227778A2400EB729A /* dialog_selectitems.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dialog_selectitems.h; sourceTree = "<group>"; };
+		5D2CDAA327778A2400EB729A /* dialog_selectcount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_selectcount.cpp; sourceTree = "<group>"; };
+		5D2CDAA427778A2400EB729A /* dialog_frameborder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_frameborder.cpp; sourceTree = "<group>"; };
+		5D2CDAA527778A2400EB729A /* dialog_game_settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dialog_game_settings.h; sourceTree = "<group>"; };
+		5D2CDAA627778A2400EB729A /* dialog_selectfile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_selectfile.cpp; sourceTree = "<group>"; };
+		5D2CDAA727778A2400EB729A /* dialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dialog.h; sourceTree = "<group>"; };
+		5D2CDAA827778A2400EB729A /* dialog_arena.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_arena.cpp; sourceTree = "<group>"; };
+		5D2CDAA927778A2400EB729A /* dialog_language_selection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_language_selection.cpp; sourceTree = "<group>"; };
+		5D2CDAAA27778A2400EB729A /* dialog_spriteinfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_spriteinfo.cpp; sourceTree = "<group>"; };
+		5D2CDAAB27778A2400EB729A /* dialog_skillinfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_skillinfo.cpp; sourceTree = "<group>"; };
+		5D2CDAAC27778A2400EB729A /* dialog_gameinfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_gameinfo.cpp; sourceTree = "<group>"; };
+		5D2CDAAD27778A2400EB729A /* dialog_game_settings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_game_settings.cpp; sourceTree = "<group>"; };
+		5D2CDAAE27778A2400EB729A /* dialog_spellinfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_spellinfo.cpp; sourceTree = "<group>"; };
+		5D2CDAAF27778A2400EB729A /* dialog_resourceinfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_resourceinfo.cpp; sourceTree = "<group>"; };
+		5D2CDAB027778A2400EB729A /* dialog_adventure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_adventure.cpp; sourceTree = "<group>"; };
+		5D2CDAB127778A2400EB729A /* dialog_resolution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_resolution.cpp; sourceTree = "<group>"; };
+		5D2CDAB227778A2400EB729A /* dialog_language_selection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dialog_language_selection.h; sourceTree = "<group>"; };
+		5D2CDAB327778A2400EB729A /* dialog_system_options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dialog_system_options.h; sourceTree = "<group>"; };
+		5D2CDAB427778A2400EB729A /* dialog_system_options.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_system_options.cpp; sourceTree = "<group>"; };
+		5D2CDAB527778A2400EB729A /* dialog_guardian.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_guardian.cpp; sourceTree = "<group>"; };
+		5D2CDAB627778A2400EB729A /* dialog_marketplace.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_marketplace.cpp; sourceTree = "<group>"; };
+		5D2CDAB727778A2400EB729A /* dialog_box.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_box.cpp; sourceTree = "<group>"; };
+		5D2CDAB827778A2400EB729A /* dialog_armyinfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_armyinfo.cpp; sourceTree = "<group>"; };
+		5D2CDAB927778A2400EB729A /* dialog_quickinfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_quickinfo.cpp; sourceTree = "<group>"; };
+		5D2CDABA27778A2400EB729A /* dialog_levelup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_levelup.cpp; sourceTree = "<group>"; };
+		5D2CDABB27778A2400EB729A /* dialog_buyboat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_buyboat.cpp; sourceTree = "<group>"; };
+		5D2CDABC27778A2400EB729A /* dialog_selectitems.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_selectitems.cpp; sourceTree = "<group>"; };
+		5D2CDABD27778A2400EB729A /* dialog_giftresources.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_giftresources.cpp; sourceTree = "<group>"; };
+		5D2CDABE27778A2400EB729A /* dialog_recrut.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_recrut.cpp; sourceTree = "<group>"; };
+		5D2CDABF27778A2400EB729A /* dialog_resolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dialog_resolution.h; sourceTree = "<group>"; };
+		5D2CDAC027778A2400EB729A /* dialog_selectscenario.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_selectscenario.cpp; sourceTree = "<group>"; };
+		5D2CDAC127778A2400EB729A /* dialog_thievesguild.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_thievesguild.cpp; sourceTree = "<group>"; };
+		5D2CDAC227778A2400EB729A /* dialog_selectscenario.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dialog_selectscenario.h; sourceTree = "<group>"; };
+		5D2CDAC327778A2400EB729A /* dialog_file.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_file.cpp; sourceTree = "<group>"; };
+		5D2CDAC427778A2400EB729A /* dialog_chest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_chest.cpp; sourceTree = "<group>"; };
+		5D2CDAC527778A2400EB729A /* dialog_settings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_settings.cpp; sourceTree = "<group>"; };
+		5D2CDAC627778A2400EB729A /* dialog_message.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dialog_message.cpp; sourceTree = "<group>"; };
+		5D2CDAC827778A2400EB729A /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		5D2CDAC927778A2400EB729A /* settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		5D2CDACA27778A2400EB729A /* save_format_version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = save_format_version.h; sourceTree = "<group>"; };
+		5D2CDACB27778A2400EB729A /* bitmodes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bitmodes.cpp; sourceTree = "<group>"; };
+		5D2CDACC27778A2400EB729A /* gamedefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gamedefs.h; sourceTree = "<group>"; };
+		5D2CDACD27778A2400EB729A /* bitmodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bitmodes.h; sourceTree = "<group>"; };
+		5D2CDACE27778A2400EB729A /* players.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = players.cpp; sourceTree = "<group>"; };
+		5D2CDACF27778A2400EB729A /* players.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = players.h; sourceTree = "<group>"; };
+		5D2CDAD027778A2400EB729A /* settings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = settings.cpp; sourceTree = "<group>"; };
+		5D2CDAD227778A2400EB729A /* h2d_file.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = h2d_file.cpp; sourceTree = "<group>"; };
+		5D2CDAD327778A2400EB729A /* h2d_file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = h2d_file.h; sourceTree = "<group>"; };
+		5D2CDAD427778A2400EB729A /* h2d.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = h2d.cpp; sourceTree = "<group>"; };
+		5D2CDAD527778A2400EB729A /* h2d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = h2d.h; sourceTree = "<group>"; };
+		5D2CDAD727778A2400EB729A /* ai_common.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ai_common.cpp; sourceTree = "<group>"; };
+		5D2CDAD827778A2400EB729A /* ai_hero_action.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ai_hero_action.cpp; sourceTree = "<group>"; };
+		5D2CDAD927778A2400EB729A /* ai.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ai.h; sourceTree = "<group>"; };
+		5D2CDADB27778A2400EB729A /* ai_normal_kingdom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ai_normal_kingdom.cpp; sourceTree = "<group>"; };
+		5D2CDADC27778A2400EB729A /* ai_normal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ai_normal.h; sourceTree = "<group>"; };
+		5D2CDADD27778A2400EB729A /* ai_normal_battle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ai_normal_battle.cpp; sourceTree = "<group>"; };
+		5D2CDADE27778A2400EB729A /* ai_normal_spell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ai_normal_spell.cpp; sourceTree = "<group>"; };
+		5D2CDADF27778A2400EB729A /* ai_normal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ai_normal.cpp; sourceTree = "<group>"; };
+		5D2CDAE027778A2400EB729A /* ai_normal_hero.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ai_normal_hero.cpp; sourceTree = "<group>"; };
+		5D2CDAE127778A2400EB729A /* ai_normal_castle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ai_normal_castle.cpp; sourceTree = "<group>"; };
+		5D2CDAE227778A2400EB729A /* ai_base.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ai_base.cpp; sourceTree = "<group>"; };
+		5D2CDAE427778A2400EB729A /* ui_tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_tool.h; sourceTree = "<group>"; };
+		5D2CDAE527778A2400EB729A /* ui_scrollbar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ui_scrollbar.cpp; sourceTree = "<group>"; };
+		5D2CDAE627778A2400EB729A /* interface_buttons.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = interface_buttons.cpp; sourceTree = "<group>"; };
+		5D2CDAE727778A2400EB729A /* ui_tool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ui_tool.cpp; sourceTree = "<group>"; };
+		5D2CDAE827778A2400EB729A /* player_info.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = player_info.cpp; sourceTree = "<group>"; };
+		5D2CDAE927778A2400EB729A /* text.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = text.cpp; sourceTree = "<group>"; };
+		5D2CDAEA27778A2400EB729A /* text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = text.h; sourceTree = "<group>"; };
+		5D2CDAEB27778A2400EB729A /* interface_icons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interface_icons.h; sourceTree = "<group>"; };
+		5D2CDAEC27778A2400EB729A /* interface_status.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = interface_status.cpp; sourceTree = "<group>"; };
+		5D2CDAED27778A2400EB729A /* interface_cpanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = interface_cpanel.cpp; sourceTree = "<group>"; };
+		5D2CDAEE27778A2400EB729A /* ui_base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_base.h; sourceTree = "<group>"; };
+		5D2CDAEF27778A2400EB729A /* interface_gamearea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interface_gamearea.h; sourceTree = "<group>"; };
+		5D2CDAF027778A2400EB729A /* statusbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = statusbar.h; sourceTree = "<group>"; };
+		5D2CDAF127778A2400EB729A /* interface_icons.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = interface_icons.cpp; sourceTree = "<group>"; };
+		5D2CDAF227778A2400EB729A /* statusbar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = statusbar.cpp; sourceTree = "<group>"; };
+		5D2CDAF327778A2400EB729A /* ui_button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_button.h; sourceTree = "<group>"; };
+		5D2CDAF427778A2400EB729A /* interface_border.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interface_border.h; sourceTree = "<group>"; };
+		5D2CDAF527778A2400EB729A /* cursor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cursor.h; sourceTree = "<group>"; };
+		5D2CDAF627778A2400EB729A /* ui_window.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ui_window.cpp; sourceTree = "<group>"; };
+		5D2CDAF727778A2400EB729A /* ui_base.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ui_base.cpp; sourceTree = "<group>"; };
+		5D2CDAF827778A2400EB729A /* interface_radar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = interface_radar.cpp; sourceTree = "<group>"; };
+		5D2CDAF927778A2400EB729A /* ui_dialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ui_dialog.cpp; sourceTree = "<group>"; };
+		5D2CDAFA27778A2400EB729A /* ui_window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_window.h; sourceTree = "<group>"; };
+		5D2CDAFB27778A2400EB729A /* interface_itemsbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interface_itemsbar.h; sourceTree = "<group>"; };
+		5D2CDAFC27778A2400EB729A /* ui_language.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_language.h; sourceTree = "<group>"; };
+		5D2CDAFD27778A2400EB729A /* ui_text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_text.h; sourceTree = "<group>"; };
+		5D2CDAFE27778A2400EB729A /* interface_radar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interface_radar.h; sourceTree = "<group>"; };
+		5D2CDAFF27778A2400EB729A /* interface_border.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = interface_border.cpp; sourceTree = "<group>"; };
+		5D2CDB0027778A2400EB729A /* skill_bar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = skill_bar.h; sourceTree = "<group>"; };
+		5D2CDB0127778A2400EB729A /* interface_status.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interface_status.h; sourceTree = "<group>"; };
+		5D2CDB0227778A2400EB729A /* interface_events.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = interface_events.cpp; sourceTree = "<group>"; };
+		5D2CDB0327778A2400EB729A /* ui_language.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ui_language.cpp; sourceTree = "<group>"; };
+		5D2CDB0427778A2400EB729A /* interface_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interface_list.h; sourceTree = "<group>"; };
+		5D2CDB0527778A2400EB729A /* interface_focus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = interface_focus.cpp; sourceTree = "<group>"; };
+		5D2CDB0627778A2400EB729A /* player_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = player_info.h; sourceTree = "<group>"; };
+		5D2CDB0727778A2400EB729A /* skill_bar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = skill_bar.cpp; sourceTree = "<group>"; };
+		5D2CDB0827778A2400EB729A /* interface_buttons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interface_buttons.h; sourceTree = "<group>"; };
+		5D2CDB0927778A2400EB729A /* cursor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cursor.cpp; sourceTree = "<group>"; };
+		5D2CDB0A27778A2400EB729A /* ui_dialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_dialog.h; sourceTree = "<group>"; };
+		5D2CDB0B27778A2400EB729A /* ui_text.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ui_text.cpp; sourceTree = "<group>"; };
+		5D2CDB0C27778A2400EB729A /* ui_button.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ui_button.cpp; sourceTree = "<group>"; };
+		5D2CDB0D27778A2400EB729A /* ui_scrollbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_scrollbar.h; sourceTree = "<group>"; };
+		5D2CDB0E27778A2400EB729A /* interface_cpanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interface_cpanel.h; sourceTree = "<group>"; };
+		5D2CDB0F27778A2400EB729A /* interface_gamearea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = interface_gamearea.cpp; sourceTree = "<group>"; };
+		5D2CDB1127778A2400EB729A /* campaign_scenariodata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = campaign_scenariodata.h; sourceTree = "<group>"; };
+		5D2CDB1227778A2400EB729A /* campaign_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = campaign_data.h; sourceTree = "<group>"; };
+		5D2CDB1327778A2400EB729A /* campaign_scenariodata.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = campaign_scenariodata.cpp; sourceTree = "<group>"; };
+		5D2CDB1427778A2400EB729A /* campaign_data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = campaign_data.cpp; sourceTree = "<group>"; };
+		5D2CDB1527778A2400EB729A /* campaign_savedata.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = campaign_savedata.cpp; sourceTree = "<group>"; };
+		5D2CDB1627778A2400EB729A /* campaign_savedata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = campaign_savedata.h; sourceTree = "<group>"; };
+		5D2CDB1827778A2400EB729A /* castle_dialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = castle_dialog.cpp; sourceTree = "<group>"; };
+		5D2CDB1927778A2400EB729A /* castle_town.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = castle_town.cpp; sourceTree = "<group>"; };
+		5D2CDB1A27778A2400EB729A /* captain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = captain.h; sourceTree = "<group>"; };
+		5D2CDB1B27778A2400EB729A /* castle_building.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = castle_building.cpp; sourceTree = "<group>"; };
+		5D2CDB1C27778A2400EB729A /* castle_ui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = castle_ui.cpp; sourceTree = "<group>"; };
+		5D2CDB1D27778A2400EB729A /* castle_heroes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = castle_heroes.h; sourceTree = "<group>"; };
+		5D2CDB1E27778A2400EB729A /* buildinginfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = buildinginfo.cpp; sourceTree = "<group>"; };
+		5D2CDB1F27778A2400EB729A /* castle_ui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = castle_ui.h; sourceTree = "<group>"; };
+		5D2CDB2027778A2400EB729A /* mageguild.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mageguild.cpp; sourceTree = "<group>"; };
+		5D2CDB2127778A2400EB729A /* mageguild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mageguild.h; sourceTree = "<group>"; };
+		5D2CDB2227778A2400EB729A /* castle_building_info.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = castle_building_info.cpp; sourceTree = "<group>"; };
+		5D2CDB2327778A2400EB729A /* castle_tavern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = castle_tavern.cpp; sourceTree = "<group>"; };
+		5D2CDB2427778A2400EB729A /* captain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = captain.cpp; sourceTree = "<group>"; };
+		5D2CDB2527778A2400EB729A /* buildinginfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buildinginfo.h; sourceTree = "<group>"; };
+		5D2CDB2627778A2400EB729A /* castle_well.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = castle_well.cpp; sourceTree = "<group>"; };
+		5D2CDB2727778A2400EB729A /* castle_building_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = castle_building_info.h; sourceTree = "<group>"; };
+		5D2CDB2827778A2400EB729A /* castle_mageguild.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = castle_mageguild.cpp; sourceTree = "<group>"; };
+		5D2CDB2927778A2400EB729A /* castle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = castle.h; sourceTree = "<group>"; };
+		5D2CDB2A27778A2400EB729A /* castle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = castle.cpp; sourceTree = "<group>"; };
+		5D2CDB2C27778A2400EB729A /* artifact_ultimate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = artifact_ultimate.h; sourceTree = "<group>"; };
+		5D2CDB2D27778A2400EB729A /* artifact_ultimate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = artifact_ultimate.cpp; sourceTree = "<group>"; };
+		5D2CDB2E27778A2400EB729A /* resource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = resource.cpp; sourceTree = "<group>"; };
+		5D2CDB2F27778A2400EB729A /* artifact.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = artifact.cpp; sourceTree = "<group>"; };
+		5D2CDB3027778A2400EB729A /* artifact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = artifact.h; sourceTree = "<group>"; };
+		5D2CDB3127778A2400EB729A /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		5D2CDB3327778A2400EB729A /* monster_info.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = monster_info.cpp; sourceTree = "<group>"; };
+		5D2CDB3427778A2400EB729A /* monster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = monster.h; sourceTree = "<group>"; };
+		5D2CDB3527778A2400EB729A /* monster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = monster.cpp; sourceTree = "<group>"; };
+		5D2CDB3627778A2400EB729A /* monster_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = monster_info.h; sourceTree = "<group>"; };
+		5D2CDB3727778A2400EB729A /* monster_anim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = monster_anim.h; sourceTree = "<group>"; };
+		5D2CDB3827778A2400EB729A /* monster_anim.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = monster_anim.cpp; sourceTree = "<group>"; };
+		5D2CDB3927778A2400EB729A /* Makefile.all */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.all; sourceTree = "<group>"; };
+		5D2CDB3A27778A2400EB729A /* Makefile.bsd */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.bsd; sourceTree = "<group>"; };
+		5D2CDB3C27778A2400EB729A /* tinyconfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tinyconfig.cpp; sourceTree = "<group>"; };
+		5D2CDB3D27778A2400EB729A /* pathfinding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pathfinding.h; sourceTree = "<group>"; };
+		5D2CDB3E27778A2400EB729A /* serialize.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = serialize.cpp; sourceTree = "<group>"; };
+		5D2CDB3F27778A2400EB729A /* zzlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zzlib.h; sourceTree = "<group>"; };
+		5D2CDB4027778A2400EB729A /* core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		5D2CDB4127778A2400EB729A /* smk_decoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smk_decoder.h; sourceTree = "<group>"; };
+		5D2CDB4227778A2400EB729A /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		5D2CDB4327778A2400EB729A /* image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = image.cpp; sourceTree = "<group>"; };
+		5D2CDB4427778A2400EB729A /* logging.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = logging.cpp; sourceTree = "<group>"; };
+		5D2CDB4527778A2400EB729A /* core.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = core.cpp; sourceTree = "<group>"; };
+		5D2CDB4627778A2500EB729A /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		5D2CDB4727778A2500EB729A /* smk_decoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = smk_decoder.cpp; sourceTree = "<group>"; };
+		5D2CDB4827778A2500EB729A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5D2CDB4927778A2500EB729A /* screen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = screen.cpp; sourceTree = "<group>"; };
+		5D2CDB4A27778A2500EB729A /* timing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timing.h; sourceTree = "<group>"; };
+		5D2CDB4B27778A2500EB729A /* image_tool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = image_tool.cpp; sourceTree = "<group>"; };
+		5D2CDB4C27778A2500EB729A /* audio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = audio.cpp; sourceTree = "<group>"; };
+		5D2CDB4D27778A2500EB729A /* audio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = audio.h; sourceTree = "<group>"; };
+		5D2CDB4E27778A2500EB729A /* pal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pal.cpp; sourceTree = "<group>"; };
+		5D2CDB4F27778A2500EB729A /* translations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = translations.cpp; sourceTree = "<group>"; };
+		5D2CDB5027778A2500EB729A /* logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
+		5D2CDB5127778A2500EB729A /* zzlib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = zzlib.cpp; sourceTree = "<group>"; };
+		5D2CDB5227778A2500EB729A /* image_palette.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = image_palette.cpp; sourceTree = "<group>"; };
+		5D2CDB5327778A2500EB729A /* dir.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dir.cpp; sourceTree = "<group>"; };
+		5D2CDB5427778A2500EB729A /* rand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rand.cpp; sourceTree = "<group>"; };
+		5D2CDB5527778A2500EB729A /* palette_h2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = palette_h2.h; sourceTree = "<group>"; };
+		5D2CDB5627778A2500EB729A /* system.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = system.cpp; sourceTree = "<group>"; };
+		5D2CDB5727778A2500EB729A /* agg_file.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = agg_file.cpp; sourceTree = "<group>"; };
+		5D2CDB5827778A2500EB729A /* tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
+		5D2CDB5927778A2500EB729A /* tools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tools.cpp; sourceTree = "<group>"; };
+		5D2CDB5A27778A2500EB729A /* image_palette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = image_palette.h; sourceTree = "<group>"; };
+		5D2CDB5B27778A2500EB729A /* rand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		5D2CDB5C27778A2500EB729A /* system.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = system.h; sourceTree = "<group>"; };
+		5D2CDB5D27778A2500EB729A /* math_base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = math_base.h; sourceTree = "<group>"; };
+		5D2CDB5E27778A2500EB729A /* agg_file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = agg_file.h; sourceTree = "<group>"; };
+		5D2CDB5F27778A2500EB729A /* localevent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = localevent.cpp; sourceTree = "<group>"; };
+		5D2CDB6027778A2500EB729A /* screen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = screen.h; sourceTree = "<group>"; };
+		5D2CDB6127778A2500EB729A /* pal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pal.h; sourceTree = "<group>"; };
+		5D2CDB6227778A2500EB729A /* xmi2mid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = xmi2mid.cpp; sourceTree = "<group>"; };
+		5D2CDB6327778A2500EB729A /* serialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = serialize.h; sourceTree = "<group>"; };
+		5D2CDB6427778A2500EB729A /* endian_h2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = endian_h2.h; sourceTree = "<group>"; };
+		5D2CDB6527778A2500EB729A /* timing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = timing.cpp; sourceTree = "<group>"; };
+		5D2CDB6627778A2500EB729A /* tinyconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tinyconfig.h; sourceTree = "<group>"; };
+		5D2CDB6727778A2500EB729A /* translations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = translations.h; sourceTree = "<group>"; };
+		5D2CDB6827778A2500EB729A /* localevent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = localevent.h; sourceTree = "<group>"; };
+		5D2CDB6927778A2500EB729A /* dir.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dir.h; sourceTree = "<group>"; };
+		5D2CDB6A27778A2500EB729A /* image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
+		5D2CDB6B27778A2500EB729A /* image_tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = image_tool.h; sourceTree = "<group>"; };
+		5D2CDB6E27778A2500EB729A /* smk_hufftree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = smk_hufftree.c; sourceTree = "<group>"; };
+		5D2CDB6F27778A2500EB729A /* smacker.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = smacker.c; sourceTree = "<group>"; };
+		5D2CDB7027778A2500EB729A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5D2CDB7127778A2500EB729A /* smk_bitstream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smk_bitstream.h; sourceTree = "<group>"; };
+		5D2CDB7227778A2500EB729A /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		5D2CDB7327778A2500EB729A /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		5D2CDB7427778A2500EB729A /* smk_malloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smk_malloc.h; sourceTree = "<group>"; };
+		5D2CDB7527778A2500EB729A /* smacker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smacker.h; sourceTree = "<group>"; };
+		5D2CDB7627778A2500EB729A /* smk_hufftree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smk_hufftree.h; sourceTree = "<group>"; };
+		5D2CDB7727778A2500EB729A /* smk_bitstream.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = smk_bitstream.c; sourceTree = "<group>"; };
+		5D2CDB7827778A2500EB729A /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,8 +775,8 @@
 		5D2CD95D2777821D00EB729A = {
 			isa = PBXGroup;
 			children = (
+				5D2CD9B127778A2300EB729A /* src */,
 				5D2CD984277782EF00EB729A /* SDL.xcodeproj */,
-				5D2CD9AF2777860500EB729A /* src */,
 				5D2CD9682777821D00EB729A /* fheroes2-iOS */,
 				5D2CD9672777821D00EB729A /* Products */,
 				5D2CD9A5277783F500EB729A /* Frameworks */,
@@ -177,6 +823,665 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D2CD9B127778A2300EB729A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CD9B227778A2300EB729A /* Makefile.mingw */,
+				5D2CD9B327778A2300EB729A /* Makefile.vita */,
+				5D2CD9B427778A2300EB729A /* tools */,
+				5D2CD9C827778A2300EB729A /* CMakeLists.txt */,
+				5D2CD9C927778A2300EB729A /* dist */,
+				5D2CD9CB27778A2300EB729A /* Makefile.switch */,
+				5D2CD9CC27778A2300EB729A /* Makefile */,
+				5D2CD9CD27778A2300EB729A /* Makefile.mingw32 */,
+				5D2CD9CE27778A2300EB729A /* resources */,
+				5D2CD9D227778A2300EB729A /* Makefile.osx */,
+				5D2CD9D327778A2300EB729A /* fheroes2 */,
+				5D2CDB3927778A2400EB729A /* Makefile.all */,
+				5D2CDB3A27778A2400EB729A /* Makefile.bsd */,
+				5D2CDB3B27778A2400EB729A /* engine */,
+				5D2CDB6C27778A2500EB729A /* thirdparty */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		5D2CD9B427778A2300EB729A /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CD9B527778A2300EB729A /* icn2img-vs2019.vcxproj */,
+				5D2CD9B627778A2300EB729A /* til2img.cpp */,
+				5D2CD9B727778A2300EB729A /* xmi2mid_cli.cpp */,
+				5D2CD9B827778A2300EB729A /* CMakeLists.txt */,
+				5D2CD9B927778A2300EB729A /* 82m2wav-vs2015.vcxproj */,
+				5D2CD9BA27778A2300EB729A /* Makefile */,
+				5D2CD9BB27778A2300EB729A /* 82m2wav.cpp */,
+				5D2CD9BC27778A2300EB729A /* cdinfo.py */,
+				5D2CD9BD27778A2300EB729A /* bin2txt-vs2019.vcxproj */,
+				5D2CD9BE27778A2300EB729A /* extractor-vs2019.vcxproj */,
+				5D2CD9BF27778A2300EB729A /* README */,
+				5D2CD9C027778A2300EB729A /* bin2txt-vs2015.vcxproj */,
+				5D2CD9C127778A2300EB729A /* extractor-vs2015.vcxproj */,
+				5D2CD9C227778A2300EB729A /* icn2img.cpp */,
+				5D2CD9C327778A2300EB729A /* bin2txt.cpp */,
+				5D2CD9C427778A2300EB729A /* til2img-vs2015.vcxproj */,
+				5D2CD9C527778A2300EB729A /* extractor.cpp */,
+				5D2CD9C627778A2300EB729A /* xmi2mid-vs2015.vcxproj */,
+				5D2CD9C727778A2300EB729A /* icn2img-vs2015.vcxproj */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		5D2CD9C927778A2300EB729A /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CD9CA27778A2300EB729A /* Makefile */,
+			);
+			path = dist;
+			sourceTree = "<group>";
+		};
+		5D2CD9CE27778A2300EB729A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CD9CF27778A2300EB729A /* fheroes2.png */,
+				5D2CD9D027778A2300EB729A /* fheroes2.rc */,
+				5D2CD9D127778A2300EB729A /* fheroes2.ico */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		5D2CD9D327778A2300EB729A /* fheroes2 */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CD9D427778A2300EB729A /* agg */,
+				5D2CD9E427778A2300EB729A /* battle */,
+				5D2CDA0527778A2300EB729A /* maps */,
+				5D2CDA1C27778A2300EB729A /* CMakeLists.txt */,
+				5D2CDA1D27778A2300EB729A /* kingdom */,
+				5D2CDA3527778A2300EB729A /* heroes */,
+				5D2CDA4A27778A2400EB729A /* spell */,
+				5D2CDA5327778A2400EB729A /* army */,
+				5D2CDA5A27778A2400EB729A /* objects */,
+				5D2CDA7527778A2400EB729A /* world */,
+				5D2CDA7D27778A2400EB729A /* game */,
+				5D2CDA9F27778A2400EB729A /* image */,
+				5D2CDAA127778A2400EB729A /* dialog */,
+				5D2CDAC727778A2400EB729A /* system */,
+				5D2CDAD127778A2400EB729A /* h2d */,
+				5D2CDAD627778A2400EB729A /* ai */,
+				5D2CDAE327778A2400EB729A /* gui */,
+				5D2CDB1027778A2400EB729A /* campaign */,
+				5D2CDB1727778A2400EB729A /* castle */,
+				5D2CDB2B27778A2400EB729A /* resource */,
+				5D2CDB3227778A2400EB729A /* monster */,
+			);
+			path = fheroes2;
+			sourceTree = "<group>";
+		};
+		5D2CD9D427778A2300EB729A /* agg */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CD9D527778A2300EB729A /* agg.cpp */,
+				5D2CD9D627778A2300EB729A /* xmi.h */,
+				5D2CD9D727778A2300EB729A /* m82.cpp */,
+				5D2CD9D827778A2300EB729A /* agg_image.h */,
+				5D2CD9D927778A2300EB729A /* icn.h */,
+				5D2CD9DA27778A2300EB729A /* bin_info.cpp */,
+				5D2CD9DB27778A2300EB729A /* m82.h */,
+				5D2CD9DC27778A2300EB729A /* til.h */,
+				5D2CD9DD27778A2300EB729A /* xmi.cpp */,
+				5D2CD9DE27778A2300EB729A /* bin_info.h */,
+				5D2CD9DF27778A2300EB729A /* icn.cpp */,
+				5D2CD9E027778A2300EB729A /* mus.cpp */,
+				5D2CD9E127778A2300EB729A /* mus.h */,
+				5D2CD9E227778A2300EB729A /* agg_image.cpp */,
+				5D2CD9E327778A2300EB729A /* agg.h */,
+			);
+			path = agg;
+			sourceTree = "<group>";
+		};
+		5D2CD9E427778A2300EB729A /* battle */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CD9E527778A2300EB729A /* battle_main.cpp */,
+				5D2CD9E627778A2300EB729A /* battle_cell.h */,
+				5D2CD9E727778A2300EB729A /* battle_tower.h */,
+				5D2CD9E827778A2300EB729A /* battle_only.cpp */,
+				5D2CD9E927778A2300EB729A /* battle_pathfinding.cpp */,
+				5D2CD9EA27778A2300EB729A /* battle_catapult.h */,
+				5D2CD9EB27778A2300EB729A /* battle.h */,
+				5D2CD9EC27778A2300EB729A /* battle_board.cpp */,
+				5D2CD9ED27778A2300EB729A /* battle_army.cpp */,
+				5D2CD9EE27778A2300EB729A /* battle_arena.cpp */,
+				5D2CD9EF27778A2300EB729A /* battle_pathfinding.h */,
+				5D2CD9F027778A2300EB729A /* battle_interface.h */,
+				5D2CD9F127778A2300EB729A /* battle_tower.cpp */,
+				5D2CD9F227778A2300EB729A /* battle_bridge.cpp */,
+				5D2CD9F327778A2300EB729A /* battle_troop.cpp */,
+				5D2CD9F427778A2300EB729A /* battle_troop.h */,
+				5D2CD9F527778A2300EB729A /* battle_dialogs.cpp */,
+				5D2CD9F627778A2300EB729A /* battle_army.h */,
+				5D2CD9F727778A2300EB729A /* battle_cell.cpp */,
+				5D2CD9F827778A2300EB729A /* battle_catapult.cpp */,
+				5D2CD9F927778A2300EB729A /* battle_only.h */,
+				5D2CD9FA27778A2300EB729A /* battle_command.cpp */,
+				5D2CD9FB27778A2300EB729A /* battle_animation.h */,
+				5D2CD9FC27778A2300EB729A /* battle_board.h */,
+				5D2CD9FD27778A2300EB729A /* battle_interface.cpp */,
+				5D2CD9FE27778A2300EB729A /* battle_animation.cpp */,
+				5D2CD9FF27778A2300EB729A /* battle_grave.cpp */,
+				5D2CDA0027778A2300EB729A /* battle_bridge.h */,
+				5D2CDA0127778A2300EB729A /* battle_command.h */,
+				5D2CDA0227778A2300EB729A /* battle_grave.h */,
+				5D2CDA0327778A2300EB729A /* battle_action.cpp */,
+				5D2CDA0427778A2300EB729A /* battle_arena.h */,
+			);
+			path = battle;
+			sourceTree = "<group>";
+		};
+		5D2CDA0527778A2300EB729A /* maps */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDA0627778A2300EB729A /* mp2_helper.cpp */,
+				5D2CDA0727778A2300EB729A /* mp2.cpp */,
+				5D2CDA0827778A2300EB729A /* mp2_helper.h */,
+				5D2CDA0927778A2300EB729A /* maps_actions.cpp */,
+				5D2CDA0A27778A2300EB729A /* maps.cpp */,
+				5D2CDA0B27778A2300EB729A /* visit.h */,
+				5D2CDA0C27778A2300EB729A /* visit.cpp */,
+				5D2CDA0D27778A2300EB729A /* ground.cpp */,
+				5D2CDA0E27778A2300EB729A /* maps_fileinfo.cpp */,
+				5D2CDA0F27778A2300EB729A /* maps_fileinfo.h */,
+				5D2CDA1027778A2300EB729A /* maps_actions.h */,
+				5D2CDA1127778A2300EB729A /* maps_tiles.h */,
+				5D2CDA1227778A2300EB729A /* mp2.h */,
+				5D2CDA1327778A2300EB729A /* pairs.h */,
+				5D2CDA1427778A2300EB729A /* maps_objects.cpp */,
+				5D2CDA1527778A2300EB729A /* maps_tiles.cpp */,
+				5D2CDA1627778A2300EB729A /* maps_objects.h */,
+				5D2CDA1727778A2300EB729A /* ground.h */,
+				5D2CDA1827778A2300EB729A /* maps.h */,
+				5D2CDA1927778A2300EB729A /* maps_tiles_quantity.cpp */,
+				5D2CDA1A27778A2300EB729A /* position.h */,
+				5D2CDA1B27778A2300EB729A /* position.cpp */,
+			);
+			path = maps;
+			sourceTree = "<group>";
+		};
+		5D2CDA1D27778A2300EB729A /* kingdom */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDA1E27778A2300EB729A /* profit.h */,
+				5D2CDA1F27778A2300EB729A /* speed.h */,
+				5D2CDA2027778A2300EB729A /* view_world.h */,
+				5D2CDA2127778A2300EB729A /* morale.h */,
+				5D2CDA2227778A2300EB729A /* color.h */,
+				5D2CDA2327778A2300EB729A /* profit.cpp */,
+				5D2CDA2427778A2300EB729A /* kingdom.cpp */,
+				5D2CDA2527778A2300EB729A /* color.cpp */,
+				5D2CDA2627778A2300EB729A /* view_world.cpp */,
+				5D2CDA2727778A2300EB729A /* kingdom_overview.cpp */,
+				5D2CDA2827778A2300EB729A /* payment.h */,
+				5D2CDA2927778A2300EB729A /* week.h */,
+				5D2CDA2A27778A2300EB729A /* puzzle.cpp */,
+				5D2CDA2B27778A2300EB729A /* speed.cpp */,
+				5D2CDA2C27778A2300EB729A /* payment.cpp */,
+				5D2CDA2D27778A2300EB729A /* luck.h */,
+				5D2CDA2E27778A2300EB729A /* luck.cpp */,
+				5D2CDA2F27778A2300EB729A /* race.cpp */,
+				5D2CDA3027778A2300EB729A /* race.h */,
+				5D2CDA3127778A2300EB729A /* week.cpp */,
+				5D2CDA3227778A2300EB729A /* morale.cpp */,
+				5D2CDA3327778A2300EB729A /* puzzle.h */,
+				5D2CDA3427778A2300EB729A /* kingdom.h */,
+			);
+			path = kingdom;
+			sourceTree = "<group>";
+		};
+		5D2CDA3527778A2300EB729A /* heroes */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDA3627778A2300EB729A /* heroes.cpp */,
+				5D2CDA3727778A2300EB729A /* skill_static.h */,
+				5D2CDA3827778A2300EB729A /* heroes_recruits.cpp */,
+				5D2CDA3927778A2300EB729A /* skill.h */,
+				5D2CDA3A27778A2300EB729A /* heroes_meeting.cpp */,
+				5D2CDA3B27778A2300EB729A /* route.h */,
+				5D2CDA3C27778A2300EB729A /* heroes_spell.cpp */,
+				5D2CDA3D27778A2300EB729A /* heroes_indicator.h */,
+				5D2CDA3E27778A2300EB729A /* heroes_base.cpp */,
+				5D2CDA3F27778A2300EB729A /* heroes.h */,
+				5D2CDA4027778A2300EB729A /* direction.h */,
+				5D2CDA4127778A2300EB729A /* heroes_action.cpp */,
+				5D2CDA4227778A2300EB729A /* route.cpp */,
+				5D2CDA4327778A2300EB729A /* heroes_move.cpp */,
+				5D2CDA4427778A2300EB729A /* skill.cpp */,
+				5D2CDA4527778A2300EB729A /* heroes_base.h */,
+				5D2CDA4627778A2300EB729A /* heroes_recruits.h */,
+				5D2CDA4727778A2400EB729A /* direction.cpp */,
+				5D2CDA4827778A2400EB729A /* heroes_indicator.cpp */,
+				5D2CDA4927778A2400EB729A /* heroes_dialog.cpp */,
+			);
+			path = heroes;
+			sourceTree = "<group>";
+		};
+		5D2CDA4A27778A2400EB729A /* spell */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDA4B27778A2400EB729A /* spell_storage.h */,
+				5D2CDA4C27778A2400EB729A /* spell.h */,
+				5D2CDA4D27778A2400EB729A /* spell_info.cpp */,
+				5D2CDA4E27778A2400EB729A /* spell_book.h */,
+				5D2CDA4F27778A2400EB729A /* spell_book.cpp */,
+				5D2CDA5027778A2400EB729A /* spell_info.h */,
+				5D2CDA5127778A2400EB729A /* spell_storage.cpp */,
+				5D2CDA5227778A2400EB729A /* spell.cpp */,
+			);
+			path = spell;
+			sourceTree = "<group>";
+		};
+		5D2CDA5327778A2400EB729A /* army */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDA5427778A2400EB729A /* army_troop.h */,
+				5D2CDA5527778A2400EB729A /* army_bar.cpp */,
+				5D2CDA5627778A2400EB729A /* army.cpp */,
+				5D2CDA5727778A2400EB729A /* army_bar.h */,
+				5D2CDA5827778A2400EB729A /* army.h */,
+				5D2CDA5927778A2400EB729A /* army_troop.cpp */,
+			);
+			path = army;
+			sourceTree = "<group>";
+		};
+		5D2CDA5A27778A2400EB729A /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDA5B27778A2400EB729A /* objtown.h */,
+				5D2CDA5C27778A2400EB729A /* objwatr.cpp */,
+				5D2CDA5D27778A2400EB729A /* objdirt.h */,
+				5D2CDA5E27778A2400EB729A /* objlava.h */,
+				5D2CDA5F27778A2400EB729A /* objgras.h */,
+				5D2CDA6027778A2400EB729A /* objdsrt.cpp */,
+				5D2CDA6127778A2400EB729A /* objsnow.cpp */,
+				5D2CDA6227778A2400EB729A /* trees.cpp */,
+				5D2CDA6327778A2400EB729A /* objcrck.h */,
+				5D2CDA6427778A2400EB729A /* objlava.cpp */,
+				5D2CDA6527778A2400EB729A /* trees.h */,
+				5D2CDA6627778A2400EB729A /* objxloc.h */,
+				5D2CDA6727778A2400EB729A /* objtown.cpp */,
+				5D2CDA6827778A2400EB729A /* objdirt.cpp */,
+				5D2CDA6927778A2400EB729A /* objsnow.h */,
+				5D2CDA6A27778A2400EB729A /* objmult.cpp */,
+				5D2CDA6B27778A2400EB729A /* mounts.h */,
+				5D2CDA6C27778A2400EB729A /* mounts.cpp */,
+				5D2CDA6D27778A2400EB729A /* objgras.cpp */,
+				5D2CDA6E27778A2400EB729A /* objmult.h */,
+				5D2CDA6F27778A2400EB729A /* objswmp.cpp */,
+				5D2CDA7027778A2400EB729A /* objwatr.h */,
+				5D2CDA7127778A2400EB729A /* objcrck.cpp */,
+				5D2CDA7227778A2400EB729A /* objswmp.h */,
+				5D2CDA7327778A2400EB729A /* objdsrt.h */,
+				5D2CDA7427778A2400EB729A /* objxloc.cpp */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		5D2CDA7527778A2400EB729A /* world */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDA7627778A2400EB729A /* world_pathfinding.cpp */,
+				5D2CDA7727778A2400EB729A /* world_pathfinding.h */,
+				5D2CDA7827778A2400EB729A /* world_loadmap.cpp */,
+				5D2CDA7927778A2400EB729A /* world_regions.cpp */,
+				5D2CDA7A27778A2400EB729A /* world.h */,
+				5D2CDA7B27778A2400EB729A /* world.cpp */,
+				5D2CDA7C27778A2400EB729A /* world_regions.h */,
+			);
+			path = world;
+			sourceTree = "<group>";
+		};
+		5D2CDA7D27778A2400EB729A /* game */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDA7E27778A2400EB729A /* game_newgame.cpp */,
+				5D2CDA7F27778A2400EB729A /* game_static.cpp */,
+				5D2CDA8027778A2400EB729A /* game_io.h */,
+				5D2CDA8127778A2400EB729A /* game_over.cpp */,
+				5D2CDA8227778A2400EB729A /* game_delays.h */,
+				5D2CDA8327778A2400EB729A /* difficulty.cpp */,
+				5D2CDA8427778A2400EB729A /* game_mainmenu_ui.h */,
+				5D2CDA8527778A2400EB729A /* game_video_type.h */,
+				5D2CDA8627778A2400EB729A /* game_over.h */,
+				5D2CDA8727778A2400EB729A /* game_credits.h */,
+				5D2CDA8827778A2400EB729A /* game_hotkeys.cpp */,
+				5D2CDA8927778A2400EB729A /* game_credits.cpp */,
+				5D2CDA8A27778A2400EB729A /* game_highscores.cpp */,
+				5D2CDA8B27778A2400EB729A /* game_static.h */,
+				5D2CDA8C27778A2400EB729A /* game_startgame.cpp */,
+				5D2CDA8D27778A2400EB729A /* game_campaign.cpp */,
+				5D2CDA8E27778A2400EB729A /* game_logo.h */,
+				5D2CDA8F27778A2400EB729A /* game_mainmenu.cpp */,
+				5D2CDA9027778A2400EB729A /* game.h */,
+				5D2CDA9127778A2400EB729A /* fheroes2.cpp */,
+				5D2CDA9227778A2400EB729A /* game_video.cpp */,
+				5D2CDA9327778A2400EB729A /* game_mode.h */,
+				5D2CDA9427778A2400EB729A /* game_io.cpp */,
+				5D2CDA9527778A2400EB729A /* game_loadgame.cpp */,
+				5D2CDA9627778A2400EB729A /* game_interface.cpp */,
+				5D2CDA9727778A2400EB729A /* game_logo.cpp */,
+				5D2CDA9827778A2400EB729A /* game_delays.cpp */,
+				5D2CDA9927778A2400EB729A /* difficulty.h */,
+				5D2CDA9A27778A2400EB729A /* game_mainmenu_ui.cpp */,
+				5D2CDA9B27778A2400EB729A /* game_video.h */,
+				5D2CDA9C27778A2400EB729A /* game_interface.h */,
+				5D2CDA9D27778A2400EB729A /* game_scenarioinfo.cpp */,
+				5D2CDA9E27778A2400EB729A /* game.cpp */,
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
+		5D2CDA9F27778A2400EB729A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDAA027778A2400EB729A /* embedded_image.h */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		5D2CDAA127778A2400EB729A /* dialog */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDAA227778A2400EB729A /* dialog_selectitems.h */,
+				5D2CDAA327778A2400EB729A /* dialog_selectcount.cpp */,
+				5D2CDAA427778A2400EB729A /* dialog_frameborder.cpp */,
+				5D2CDAA527778A2400EB729A /* dialog_game_settings.h */,
+				5D2CDAA627778A2400EB729A /* dialog_selectfile.cpp */,
+				5D2CDAA727778A2400EB729A /* dialog.h */,
+				5D2CDAA827778A2400EB729A /* dialog_arena.cpp */,
+				5D2CDAA927778A2400EB729A /* dialog_language_selection.cpp */,
+				5D2CDAAA27778A2400EB729A /* dialog_spriteinfo.cpp */,
+				5D2CDAAB27778A2400EB729A /* dialog_skillinfo.cpp */,
+				5D2CDAAC27778A2400EB729A /* dialog_gameinfo.cpp */,
+				5D2CDAAD27778A2400EB729A /* dialog_game_settings.cpp */,
+				5D2CDAAE27778A2400EB729A /* dialog_spellinfo.cpp */,
+				5D2CDAAF27778A2400EB729A /* dialog_resourceinfo.cpp */,
+				5D2CDAB027778A2400EB729A /* dialog_adventure.cpp */,
+				5D2CDAB127778A2400EB729A /* dialog_resolution.cpp */,
+				5D2CDAB227778A2400EB729A /* dialog_language_selection.h */,
+				5D2CDAB327778A2400EB729A /* dialog_system_options.h */,
+				5D2CDAB427778A2400EB729A /* dialog_system_options.cpp */,
+				5D2CDAB527778A2400EB729A /* dialog_guardian.cpp */,
+				5D2CDAB627778A2400EB729A /* dialog_marketplace.cpp */,
+				5D2CDAB727778A2400EB729A /* dialog_box.cpp */,
+				5D2CDAB827778A2400EB729A /* dialog_armyinfo.cpp */,
+				5D2CDAB927778A2400EB729A /* dialog_quickinfo.cpp */,
+				5D2CDABA27778A2400EB729A /* dialog_levelup.cpp */,
+				5D2CDABB27778A2400EB729A /* dialog_buyboat.cpp */,
+				5D2CDABC27778A2400EB729A /* dialog_selectitems.cpp */,
+				5D2CDABD27778A2400EB729A /* dialog_giftresources.cpp */,
+				5D2CDABE27778A2400EB729A /* dialog_recrut.cpp */,
+				5D2CDABF27778A2400EB729A /* dialog_resolution.h */,
+				5D2CDAC027778A2400EB729A /* dialog_selectscenario.cpp */,
+				5D2CDAC127778A2400EB729A /* dialog_thievesguild.cpp */,
+				5D2CDAC227778A2400EB729A /* dialog_selectscenario.h */,
+				5D2CDAC327778A2400EB729A /* dialog_file.cpp */,
+				5D2CDAC427778A2400EB729A /* dialog_chest.cpp */,
+				5D2CDAC527778A2400EB729A /* dialog_settings.cpp */,
+				5D2CDAC627778A2400EB729A /* dialog_message.cpp */,
+			);
+			path = dialog;
+			sourceTree = "<group>";
+		};
+		5D2CDAC727778A2400EB729A /* system */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDAC827778A2400EB729A /* version.h */,
+				5D2CDAC927778A2400EB729A /* settings.h */,
+				5D2CDACA27778A2400EB729A /* save_format_version.h */,
+				5D2CDACB27778A2400EB729A /* bitmodes.cpp */,
+				5D2CDACC27778A2400EB729A /* gamedefs.h */,
+				5D2CDACD27778A2400EB729A /* bitmodes.h */,
+				5D2CDACE27778A2400EB729A /* players.cpp */,
+				5D2CDACF27778A2400EB729A /* players.h */,
+				5D2CDAD027778A2400EB729A /* settings.cpp */,
+			);
+			path = system;
+			sourceTree = "<group>";
+		};
+		5D2CDAD127778A2400EB729A /* h2d */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDAD227778A2400EB729A /* h2d_file.cpp */,
+				5D2CDAD327778A2400EB729A /* h2d_file.h */,
+				5D2CDAD427778A2400EB729A /* h2d.cpp */,
+				5D2CDAD527778A2400EB729A /* h2d.h */,
+			);
+			path = h2d;
+			sourceTree = "<group>";
+		};
+		5D2CDAD627778A2400EB729A /* ai */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDAD727778A2400EB729A /* ai_common.cpp */,
+				5D2CDAD827778A2400EB729A /* ai_hero_action.cpp */,
+				5D2CDAD927778A2400EB729A /* ai.h */,
+				5D2CDADA27778A2400EB729A /* normal */,
+				5D2CDAE227778A2400EB729A /* ai_base.cpp */,
+			);
+			path = ai;
+			sourceTree = "<group>";
+		};
+		5D2CDADA27778A2400EB729A /* normal */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDADB27778A2400EB729A /* ai_normal_kingdom.cpp */,
+				5D2CDADC27778A2400EB729A /* ai_normal.h */,
+				5D2CDADD27778A2400EB729A /* ai_normal_battle.cpp */,
+				5D2CDADE27778A2400EB729A /* ai_normal_spell.cpp */,
+				5D2CDADF27778A2400EB729A /* ai_normal.cpp */,
+				5D2CDAE027778A2400EB729A /* ai_normal_hero.cpp */,
+				5D2CDAE127778A2400EB729A /* ai_normal_castle.cpp */,
+			);
+			path = normal;
+			sourceTree = "<group>";
+		};
+		5D2CDAE327778A2400EB729A /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDAE427778A2400EB729A /* ui_tool.h */,
+				5D2CDAE527778A2400EB729A /* ui_scrollbar.cpp */,
+				5D2CDAE627778A2400EB729A /* interface_buttons.cpp */,
+				5D2CDAE727778A2400EB729A /* ui_tool.cpp */,
+				5D2CDAE827778A2400EB729A /* player_info.cpp */,
+				5D2CDAE927778A2400EB729A /* text.cpp */,
+				5D2CDAEA27778A2400EB729A /* text.h */,
+				5D2CDAEB27778A2400EB729A /* interface_icons.h */,
+				5D2CDAEC27778A2400EB729A /* interface_status.cpp */,
+				5D2CDAED27778A2400EB729A /* interface_cpanel.cpp */,
+				5D2CDAEE27778A2400EB729A /* ui_base.h */,
+				5D2CDAEF27778A2400EB729A /* interface_gamearea.h */,
+				5D2CDAF027778A2400EB729A /* statusbar.h */,
+				5D2CDAF127778A2400EB729A /* interface_icons.cpp */,
+				5D2CDAF227778A2400EB729A /* statusbar.cpp */,
+				5D2CDAF327778A2400EB729A /* ui_button.h */,
+				5D2CDAF427778A2400EB729A /* interface_border.h */,
+				5D2CDAF527778A2400EB729A /* cursor.h */,
+				5D2CDAF627778A2400EB729A /* ui_window.cpp */,
+				5D2CDAF727778A2400EB729A /* ui_base.cpp */,
+				5D2CDAF827778A2400EB729A /* interface_radar.cpp */,
+				5D2CDAF927778A2400EB729A /* ui_dialog.cpp */,
+				5D2CDAFA27778A2400EB729A /* ui_window.h */,
+				5D2CDAFB27778A2400EB729A /* interface_itemsbar.h */,
+				5D2CDAFC27778A2400EB729A /* ui_language.h */,
+				5D2CDAFD27778A2400EB729A /* ui_text.h */,
+				5D2CDAFE27778A2400EB729A /* interface_radar.h */,
+				5D2CDAFF27778A2400EB729A /* interface_border.cpp */,
+				5D2CDB0027778A2400EB729A /* skill_bar.h */,
+				5D2CDB0127778A2400EB729A /* interface_status.h */,
+				5D2CDB0227778A2400EB729A /* interface_events.cpp */,
+				5D2CDB0327778A2400EB729A /* ui_language.cpp */,
+				5D2CDB0427778A2400EB729A /* interface_list.h */,
+				5D2CDB0527778A2400EB729A /* interface_focus.cpp */,
+				5D2CDB0627778A2400EB729A /* player_info.h */,
+				5D2CDB0727778A2400EB729A /* skill_bar.cpp */,
+				5D2CDB0827778A2400EB729A /* interface_buttons.h */,
+				5D2CDB0927778A2400EB729A /* cursor.cpp */,
+				5D2CDB0A27778A2400EB729A /* ui_dialog.h */,
+				5D2CDB0B27778A2400EB729A /* ui_text.cpp */,
+				5D2CDB0C27778A2400EB729A /* ui_button.cpp */,
+				5D2CDB0D27778A2400EB729A /* ui_scrollbar.h */,
+				5D2CDB0E27778A2400EB729A /* interface_cpanel.h */,
+				5D2CDB0F27778A2400EB729A /* interface_gamearea.cpp */,
+			);
+			path = gui;
+			sourceTree = "<group>";
+		};
+		5D2CDB1027778A2400EB729A /* campaign */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDB1127778A2400EB729A /* campaign_scenariodata.h */,
+				5D2CDB1227778A2400EB729A /* campaign_data.h */,
+				5D2CDB1327778A2400EB729A /* campaign_scenariodata.cpp */,
+				5D2CDB1427778A2400EB729A /* campaign_data.cpp */,
+				5D2CDB1527778A2400EB729A /* campaign_savedata.cpp */,
+				5D2CDB1627778A2400EB729A /* campaign_savedata.h */,
+			);
+			path = campaign;
+			sourceTree = "<group>";
+		};
+		5D2CDB1727778A2400EB729A /* castle */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDB1827778A2400EB729A /* castle_dialog.cpp */,
+				5D2CDB1927778A2400EB729A /* castle_town.cpp */,
+				5D2CDB1A27778A2400EB729A /* captain.h */,
+				5D2CDB1B27778A2400EB729A /* castle_building.cpp */,
+				5D2CDB1C27778A2400EB729A /* castle_ui.cpp */,
+				5D2CDB1D27778A2400EB729A /* castle_heroes.h */,
+				5D2CDB1E27778A2400EB729A /* buildinginfo.cpp */,
+				5D2CDB1F27778A2400EB729A /* castle_ui.h */,
+				5D2CDB2027778A2400EB729A /* mageguild.cpp */,
+				5D2CDB2127778A2400EB729A /* mageguild.h */,
+				5D2CDB2227778A2400EB729A /* castle_building_info.cpp */,
+				5D2CDB2327778A2400EB729A /* castle_tavern.cpp */,
+				5D2CDB2427778A2400EB729A /* captain.cpp */,
+				5D2CDB2527778A2400EB729A /* buildinginfo.h */,
+				5D2CDB2627778A2400EB729A /* castle_well.cpp */,
+				5D2CDB2727778A2400EB729A /* castle_building_info.h */,
+				5D2CDB2827778A2400EB729A /* castle_mageguild.cpp */,
+				5D2CDB2927778A2400EB729A /* castle.h */,
+				5D2CDB2A27778A2400EB729A /* castle.cpp */,
+			);
+			path = castle;
+			sourceTree = "<group>";
+		};
+		5D2CDB2B27778A2400EB729A /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDB2C27778A2400EB729A /* artifact_ultimate.h */,
+				5D2CDB2D27778A2400EB729A /* artifact_ultimate.cpp */,
+				5D2CDB2E27778A2400EB729A /* resource.cpp */,
+				5D2CDB2F27778A2400EB729A /* artifact.cpp */,
+				5D2CDB3027778A2400EB729A /* artifact.h */,
+				5D2CDB3127778A2400EB729A /* resource.h */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		5D2CDB3227778A2400EB729A /* monster */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDB3327778A2400EB729A /* monster_info.cpp */,
+				5D2CDB3427778A2400EB729A /* monster.h */,
+				5D2CDB3527778A2400EB729A /* monster.cpp */,
+				5D2CDB3627778A2400EB729A /* monster_info.h */,
+				5D2CDB3727778A2400EB729A /* monster_anim.h */,
+				5D2CDB3827778A2400EB729A /* monster_anim.cpp */,
+			);
+			path = monster;
+			sourceTree = "<group>";
+		};
+		5D2CDB3B27778A2400EB729A /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDB3C27778A2400EB729A /* tinyconfig.cpp */,
+				5D2CDB3D27778A2400EB729A /* pathfinding.h */,
+				5D2CDB3E27778A2400EB729A /* serialize.cpp */,
+				5D2CDB3F27778A2400EB729A /* zzlib.h */,
+				5D2CDB4027778A2400EB729A /* core.h */,
+				5D2CDB4127778A2400EB729A /* smk_decoder.h */,
+				5D2CDB4227778A2400EB729A /* CMakeLists.txt */,
+				5D2CDB4327778A2400EB729A /* image.cpp */,
+				5D2CDB4427778A2400EB729A /* logging.cpp */,
+				5D2CDB4527778A2400EB729A /* core.cpp */,
+				5D2CDB4627778A2500EB729A /* types.h */,
+				5D2CDB4727778A2500EB729A /* smk_decoder.cpp */,
+				5D2CDB4827778A2500EB729A /* Makefile */,
+				5D2CDB4927778A2500EB729A /* screen.cpp */,
+				5D2CDB4A27778A2500EB729A /* timing.h */,
+				5D2CDB4B27778A2500EB729A /* image_tool.cpp */,
+				5D2CDB4C27778A2500EB729A /* audio.cpp */,
+				5D2CDB4D27778A2500EB729A /* audio.h */,
+				5D2CDB4E27778A2500EB729A /* pal.cpp */,
+				5D2CDB4F27778A2500EB729A /* translations.cpp */,
+				5D2CDB5027778A2500EB729A /* logging.h */,
+				5D2CDB5127778A2500EB729A /* zzlib.cpp */,
+				5D2CDB5227778A2500EB729A /* image_palette.cpp */,
+				5D2CDB5327778A2500EB729A /* dir.cpp */,
+				5D2CDB5427778A2500EB729A /* rand.cpp */,
+				5D2CDB5527778A2500EB729A /* palette_h2.h */,
+				5D2CDB5627778A2500EB729A /* system.cpp */,
+				5D2CDB5727778A2500EB729A /* agg_file.cpp */,
+				5D2CDB5827778A2500EB729A /* tools.h */,
+				5D2CDB5927778A2500EB729A /* tools.cpp */,
+				5D2CDB5A27778A2500EB729A /* image_palette.h */,
+				5D2CDB5B27778A2500EB729A /* rand.h */,
+				5D2CDB5C27778A2500EB729A /* system.h */,
+				5D2CDB5D27778A2500EB729A /* math_base.h */,
+				5D2CDB5E27778A2500EB729A /* agg_file.h */,
+				5D2CDB5F27778A2500EB729A /* localevent.cpp */,
+				5D2CDB6027778A2500EB729A /* screen.h */,
+				5D2CDB6127778A2500EB729A /* pal.h */,
+				5D2CDB6227778A2500EB729A /* xmi2mid.cpp */,
+				5D2CDB6327778A2500EB729A /* serialize.h */,
+				5D2CDB6427778A2500EB729A /* endian_h2.h */,
+				5D2CDB6527778A2500EB729A /* timing.cpp */,
+				5D2CDB6627778A2500EB729A /* tinyconfig.h */,
+				5D2CDB6727778A2500EB729A /* translations.h */,
+				5D2CDB6827778A2500EB729A /* localevent.h */,
+				5D2CDB6927778A2500EB729A /* dir.h */,
+				5D2CDB6A27778A2500EB729A /* image.h */,
+				5D2CDB6B27778A2500EB729A /* image_tool.h */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		5D2CDB6C27778A2500EB729A /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDB6D27778A2500EB729A /* libsmacker */,
+				5D2CDB7827778A2500EB729A /* CMakeLists.txt */,
+			);
+			path = thirdparty;
+			sourceTree = "<group>";
+		};
+		5D2CDB6D27778A2500EB729A /* libsmacker */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDB6E27778A2500EB729A /* smk_hufftree.c */,
+				5D2CDB6F27778A2500EB729A /* smacker.c */,
+				5D2CDB7027778A2500EB729A /* Makefile */,
+				5D2CDB7127778A2500EB729A /* smk_bitstream.h */,
+				5D2CDB7227778A2500EB729A /* README */,
+				5D2CDB7327778A2500EB729A /* COPYING */,
+				5D2CDB7427778A2500EB729A /* smk_malloc.h */,
+				5D2CDB7527778A2500EB729A /* smacker.h */,
+				5D2CDB7627778A2500EB729A /* smk_hufftree.h */,
+				5D2CDB7727778A2500EB729A /* smk_bitstream.c */,
+			);
+			path = libsmacker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +1621,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2CDB7927778A5C00EB729A /* fheroes2.ico in Resources */,
+				5D2CDB7A27778A5C00EB729A /* fheroes2.png in Resources */,
+				5D2CDB7B27778A5C00EB729A /* fheroes2.rc in Resources */,
 				5D2CD97C2777821E00EB729A /* LaunchScreen.storyboard in Resources */,
 				5D2CD9792777821E00EB729A /* Assets.xcassets in Resources */,
 			);
@@ -328,7 +1636,224 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2CDB9627778B3A00EB729A /* luck.cpp in Sources */,
+				5D2CDB8927778B3A00EB729A /* dialog_quickinfo.cpp in Sources */,
+				5D2CDC0627778B3A00EB729A /* objcrck.cpp in Sources */,
+				5D2CDBB427778B3A00EB729A /* interface_icons.cpp in Sources */,
+				5D2CDC3927778B3A00EB729A /* spell_storage.cpp in Sources */,
+				5D2CDBDF27778B3A00EB729A /* heroes.cpp in Sources */,
+				5D2CDB8427778B3A00EB729A /* dialog_recrut.cpp in Sources */,
+				5D2CDBBA27778B3A00EB729A /* monster.cpp in Sources */,
+				5D2CDC1127778B3A00EB729A /* ai_normal_castle.cpp in Sources */,
+				5D2CDC0A27778B3A00EB729A /* maps_tiles_quantity.cpp in Sources */,
+				5D2CDC4727778B3A00EB729A /* 82m2wav.cpp in Sources */,
+				5D2CDC2D27778B3A00EB729A /* ui_language.cpp in Sources */,
+				5D2CDB9E27778B3A00EB729A /* game_video.cpp in Sources */,
+				5D2CDC3027778B3A00EB729A /* bin_info.cpp in Sources */,
+				5D2CDC0E27778B3A00EB729A /* castle_building_info.cpp in Sources */,
+				5D2CDBC227778B3A00EB729A /* game_newgame.cpp in Sources */,
+				5D2CDC0827778B3A00EB729A /* castle_tavern.cpp in Sources */,
+				5D2CDB8A27778B3A00EB729A /* world.cpp in Sources */,
+				5D2CDC1427778B3A00EB729A /* world_regions.cpp in Sources */,
+				5D2CDC3D27778B3A00EB729A /* dialog_selectscenario.cpp in Sources */,
+				5D2CDBF827778B3A00EB729A /* agg.cpp in Sources */,
+				5D2CDBCB27778B3A00EB729A /* tools.cpp in Sources */,
+				5D2CDBC527778B3A00EB729A /* race.cpp in Sources */,
+				5D2CDC3627778B3A00EB729A /* battle_main.cpp in Sources */,
+				5D2CDB9327778B3A00EB729A /* ui_button.cpp in Sources */,
+				5D2CDC4227778B3A00EB729A /* battle_animation.cpp in Sources */,
+				5D2CDC1D27778B3A00EB729A /* castle_town.cpp in Sources */,
+				5D2CDC2A27778B3A00EB729A /* objdsrt.cpp in Sources */,
+				5D2CDB8027778B3A00EB729A /* dialog_armyinfo.cpp in Sources */,
+				5D2CDC1B27778B3A00EB729A /* image_tool.cpp in Sources */,
+				5D2CDBC927778B3A00EB729A /* game_campaign.cpp in Sources */,
+				5D2CDC2027778B3A00EB729A /* mounts.cpp in Sources */,
+				5D2CDBCD27778B3A00EB729A /* ai_common.cpp in Sources */,
+				5D2CDC0327778B3A00EB729A /* smk_decoder.cpp in Sources */,
+				5D2CDC3C27778B3A00EB729A /* pal.cpp in Sources */,
+				5D2CDBAC27778B3A00EB729A /* xmi2mid_cli.cpp in Sources */,
+				5D2CDBA927778B3A00EB729A /* dialog_resourceinfo.cpp in Sources */,
+				5D2CDBBB27778B3A00EB729A /* resource.cpp in Sources */,
+				5D2CDC2927778B3A00EB729A /* battle_cell.cpp in Sources */,
+				5D2CDBD227778B3A00EB729A /* world_pathfinding.cpp in Sources */,
+				5D2CDBF627778B3A00EB729A /* campaign_scenariodata.cpp in Sources */,
+				5D2CDC4B27778B3B00EB729A /* ai_normal_hero.cpp in Sources */,
+				5D2CDC4027778B3A00EB729A /* route.cpp in Sources */,
+				5D2CDBD527778B3A00EB729A /* dialog_system_options.cpp in Sources */,
+				5D2CDC1E27778B3A00EB729A /* game_delays.cpp in Sources */,
+				5D2CDBDA27778B3A00EB729A /* ui_window.cpp in Sources */,
+				5D2CDC0527778B3A00EB729A /* game_credits.cpp in Sources */,
+				5D2CDBB527778B3A00EB729A /* trees.cpp in Sources */,
+				5D2CDBB227778B3A00EB729A /* battle_interface.cpp in Sources */,
+				5D2CDC1927778B3A00EB729A /* interface_events.cpp in Sources */,
+				5D2CDBA127778B3A00EB729A /* bin2txt.cpp in Sources */,
+				5D2CDBE027778B3A00EB729A /* dialog_language_selection.cpp in Sources */,
+				5D2CDC2327778B3A00EB729A /* dialog_resolution.cpp in Sources */,
+				5D2CDBF727778B3A00EB729A /* skill.cpp in Sources */,
+				5D2CDC1527778B3A00EB729A /* ai_normal_battle.cpp in Sources */,
+				5D2CDB7F27778B3A00EB729A /* game_over.cpp in Sources */,
+				5D2CDBE127778B3A00EB729A /* puzzle.cpp in Sources */,
+				5D2CDC4A27778B3A00EB729A /* game_logo.cpp in Sources */,
+				5D2CDBFC27778B3A00EB729A /* objsnow.cpp in Sources */,
+				5D2CDC1827778B3A00EB729A /* bitmodes.cpp in Sources */,
+				5D2CDBE227778B3A00EB729A /* screen.cpp in Sources */,
+				5D2CDB9227778B3A00EB729A /* week.cpp in Sources */,
+				5D2CDC1727778B3A00EB729A /* game_startgame.cpp in Sources */,
+				5D2CDBC627778B3A00EB729A /* logging.cpp in Sources */,
+				5D2CDC0C27778B3A00EB729A /* dialog_skillinfo.cpp in Sources */,
+				5D2CDBBC27778B3A00EB729A /* icn2img.cpp in Sources */,
+				5D2CDBAE27778B3A00EB729A /* ai_base.cpp in Sources */,
+				5D2CDC5427778B3B00EB729A /* battle_only.cpp in Sources */,
+				5D2CDC1C27778B3A00EB729A /* position.cpp in Sources */,
+				5D2CDC3327778B3A00EB729A /* objdirt.cpp in Sources */,
+				5D2CDBD127778B3A00EB729A /* objswmp.cpp in Sources */,
+				5D2CDBBF27778B3A00EB729A /* agg_file.cpp in Sources */,
+				5D2CDBCA27778B3A00EB729A /* artifact_ultimate.cpp in Sources */,
+				5D2CDBF327778B3A00EB729A /* extractor.cpp in Sources */,
+				5D2CDBAB27778B3A00EB729A /* objwatr.cpp in Sources */,
+				5D2CDBF227778B3A00EB729A /* dialog_settings.cpp in Sources */,
+				5D2CDBFE27778B3A00EB729A /* heroes_recruits.cpp in Sources */,
+				5D2CDBD327778B3A00EB729A /* players.cpp in Sources */,
+				5D2CDB8627778B3A00EB729A /* image_palette.cpp in Sources */,
+				5D2CDBEF27778B3A00EB729A /* agg_image.cpp in Sources */,
+				5D2CDBB927778B3A00EB729A /* color.cpp in Sources */,
+				5D2CDB8E27778B3A00EB729A /* dialog_game_settings.cpp in Sources */,
+				5D2CDBD727778B3A00EB729A /* dialog_selectfile.cpp in Sources */,
+				5D2CDBAD27778B3A00EB729A /* game_scenarioinfo.cpp in Sources */,
+				5D2CDB9C27778B3A00EB729A /* serialize.cpp in Sources */,
+				5D2CDC4827778B3A00EB729A /* army.cpp in Sources */,
+				5D2CDBB027778B3A00EB729A /* h2d.cpp in Sources */,
+				5D2CDC0427778B3A00EB729A /* game_static.cpp in Sources */,
+				5D2CDC3127778B3A00EB729A /* h2d_file.cpp in Sources */,
+				5D2CDC3527778B3A00EB729A /* battle_action.cpp in Sources */,
+				5D2CDB8327778B3A00EB729A /* castle_dialog.cpp in Sources */,
+				5D2CDC0027778B3A00EB729A /* game_mainmenu_ui.cpp in Sources */,
+				5D2CDC5327778B3B00EB729A /* artifact.cpp in Sources */,
+				5D2CDBF927778B3A00EB729A /* heroes_action.cpp in Sources */,
+				5D2CDBFA27778B3A00EB729A /* interface_focus.cpp in Sources */,
+				5D2CDC0727778B3A00EB729A /* castle_ui.cpp in Sources */,
+				5D2CDBFB27778B3A00EB729A /* maps_actions.cpp in Sources */,
+				5D2CDBDB27778B3A00EB729A /* fheroes2.cpp in Sources */,
+				5D2CDB8727778B3A00EB729A /* speed.cpp in Sources */,
+				5D2CDB9127778B3A00EB729A /* game_hotkeys.cpp in Sources */,
+				5D2CDC1227778B3A00EB729A /* text.cpp in Sources */,
+				5D2CDBBD27778B3A00EB729A /* dialog_box.cpp in Sources */,
+				5D2CDBE327778B3A00EB729A /* objtown.cpp in Sources */,
+				5D2CDBE527778B3A00EB729A /* battle_tower.cpp in Sources */,
+				5D2CDC5027778B3B00EB729A /* dialog_buyboat.cpp in Sources */,
+				5D2CDC2227778B3A00EB729A /* battle_board.cpp in Sources */,
+				5D2CDBB827778B3A00EB729A /* cursor.cpp in Sources */,
+				5D2CDC5127778B3B00EB729A /* ai_hero_action.cpp in Sources */,
+				5D2CDC3B27778B3A00EB729A /* objmult.cpp in Sources */,
+				5D2CDB8D27778B3A00EB729A /* ground.cpp in Sources */,
+				5D2CDC2F27778B3A00EB729A /* battle_troop.cpp in Sources */,
 				5D2CD9AD2777844900EB729A /* SDL_uikit_main.c in Sources */,
+				5D2CDBCE27778B3A00EB729A /* mageguild.cpp in Sources */,
+				5D2CDC1627778B3A00EB729A /* dialog_spellinfo.cpp in Sources */,
+				5D2CDC0227778B3A00EB729A /* ui_dialog.cpp in Sources */,
+				5D2CDC4627778B3A00EB729A /* dialog_marketplace.cpp in Sources */,
+				5D2CDBC327778B3A00EB729A /* ai_normal_spell.cpp in Sources */,
+				5D2CDC4E27778B3B00EB729A /* dialog_gameinfo.cpp in Sources */,
+				5D2CDC1327778B3A00EB729A /* player_info.cpp in Sources */,
+				5D2CDBE427778B3A00EB729A /* world_loadmap.cpp in Sources */,
+				5D2CDBE827778B3A00EB729A /* ui_tool.cpp in Sources */,
+				5D2CDC3427778B3A00EB729A /* game_io.cpp in Sources */,
+				5D2CDBD627778B3A00EB729A /* castle_well.cpp in Sources */,
+				5D2CDBEE27778B3A00EB729A /* dialog_chest.cpp in Sources */,
+				5D2CDBD027778B3A00EB729A /* m82.cpp in Sources */,
+				5D2CDBA227778B3A00EB729A /* core.cpp in Sources */,
+				5D2CDBFF27778B3A00EB729A /* visit.cpp in Sources */,
+				5D2CDBEA27778B3A00EB729A /* monster_anim.cpp in Sources */,
+				5D2CDC3A27778B3A00EB729A /* battle_grave.cpp in Sources */,
+				5D2CDBA727778B3A00EB729A /* kingdom_overview.cpp in Sources */,
+				5D2CDBE727778B3A00EB729A /* objxloc.cpp in Sources */,
+				5D2CDC3227778B3A00EB729A /* rand.cpp in Sources */,
+				5D2CDBDC27778B3A00EB729A /* ai_normal.cpp in Sources */,
+				5D2CDBD427778B3A00EB729A /* battle_catapult.cpp in Sources */,
+				5D2CDC1F27778B3A00EB729A /* dialog_thievesguild.cpp in Sources */,
+				5D2CDB9A27778B3A00EB729A /* castle_mageguild.cpp in Sources */,
+				5D2CDC4927778B3A00EB729A /* icn.cpp in Sources */,
+				5D2CDBAA27778B3A00EB729A /* heroes_spell.cpp in Sources */,
+				5D2CDC4127778B3A00EB729A /* profit.cpp in Sources */,
+				5D2CDB8C27778B3A00EB729A /* game_loadgame.cpp in Sources */,
+				5D2CDC2C27778B3A00EB729A /* localevent.cpp in Sources */,
+				5D2CDC0D27778B3A00EB729A /* payment.cpp in Sources */,
+				5D2CDBE627778B3A00EB729A /* xmi.cpp in Sources */,
+				5D2CDC2527778B3A00EB729A /* dialog_spriteinfo.cpp in Sources */,
+				5D2CDBF127778B3A00EB729A /* game_highscores.cpp in Sources */,
+				5D2CDBCC27778B3A00EB729A /* army_bar.cpp in Sources */,
+				5D2CDC2B27778B3A00EB729A /* campaign_data.cpp in Sources */,
+				5D2CDBA827778B3A00EB729A /* xmi2mid.cpp in Sources */,
+				5D2CDC3727778B3A00EB729A /* direction.cpp in Sources */,
+				5D2CDB9927778B3A00EB729A /* interface_gamearea.cpp in Sources */,
+				5D2CDC2627778B3A00EB729A /* mp2_helper.cpp in Sources */,
+				5D2CDC0127778B3A00EB729A /* heroes_indicator.cpp in Sources */,
+				5D2CDBCF27778B3A00EB729A /* ai_normal_kingdom.cpp in Sources */,
+				5D2CDBEC27778B3A00EB729A /* heroes_move.cpp in Sources */,
+				5D2CDB8827778B3A00EB729A /* game_mainmenu.cpp in Sources */,
+				5D2CDB9827778B3A00EB729A /* image.cpp in Sources */,
+				5D2CDBC127778B3A00EB729A /* audio.cpp in Sources */,
+				5D2CDBED27778B3A00EB729A /* game.cpp in Sources */,
+				5D2CDBDD27778B3A00EB729A /* castle_building.cpp in Sources */,
+				5D2CDB8527778B3A00EB729A /* heroes_dialog.cpp in Sources */,
+				5D2CDBBE27778B3A00EB729A /* mp2.cpp in Sources */,
+				5D2CDB9427778B3A00EB729A /* battle_dialogs.cpp in Sources */,
+				5D2CDBEB27778B3A00EB729A /* dialog_frameborder.cpp in Sources */,
+				5D2CDC4C27778B3B00EB729A /* difficulty.cpp in Sources */,
+				5D2CDB7D27778B3A00EB729A /* dialog_file.cpp in Sources */,
+				5D2CDB9527778B3A00EB729A /* spell.cpp in Sources */,
+				5D2CDBB327778B3A00EB729A /* game_interface.cpp in Sources */,
+				5D2CDBAF27778B3A00EB729A /* ui_base.cpp in Sources */,
+				5D2CDB8F27778B3A00EB729A /* objgras.cpp in Sources */,
+				5D2CDB8127778B3A00EB729A /* view_world.cpp in Sources */,
+				5D2CDC1027778B3A00EB729A /* statusbar.cpp in Sources */,
+				5D2CDBD827778B3A00EB729A /* monster_info.cpp in Sources */,
+				5D2CDB9D27778B3A00EB729A /* dialog_giftresources.cpp in Sources */,
+				5D2CDB9B27778B3A00EB729A /* dialog_adventure.cpp in Sources */,
+				5D2CDC4427778B3A00EB729A /* maps_fileinfo.cpp in Sources */,
+				5D2CDBF427778B3A00EB729A /* system.cpp in Sources */,
+				5D2CDBB627778B3A00EB729A /* campaign_savedata.cpp in Sources */,
+				5D2CDBD927778B3A00EB729A /* buildinginfo.cpp in Sources */,
+				5D2CDBA427778B3A00EB729A /* interface_radar.cpp in Sources */,
+				5D2CDB8227778B3A00EB729A /* kingdom.cpp in Sources */,
+				5D2CDC3E27778B3A00EB729A /* interface_cpanel.cpp in Sources */,
+				5D2CDBDE27778B3A00EB729A /* translations.cpp in Sources */,
+				5D2CDBFD27778B3A00EB729A /* interface_status.cpp in Sources */,
+				5D2CDB9F27778B3A00EB729A /* battle_command.cpp in Sources */,
+				5D2CDBC427778B3A00EB729A /* tinyconfig.cpp in Sources */,
+				5D2CDBF027778B3A00EB729A /* heroes_base.cpp in Sources */,
+				5D2CDC4F27778B3B00EB729A /* morale.cpp in Sources */,
+				5D2CDBA527778B3A00EB729A /* skill_bar.cpp in Sources */,
+				5D2CDBB127778B3A00EB729A /* ui_scrollbar.cpp in Sources */,
+				5D2CDC1A27778B3A00EB729A /* battle_pathfinding.cpp in Sources */,
+				5D2CDBA027778B3A00EB729A /* maps.cpp in Sources */,
+				5D2CDC4D27778B3B00EB729A /* castle.cpp in Sources */,
+				5D2CDBA327778B3A00EB729A /* dialog_message.cpp in Sources */,
+				5D2CDBC827778B3A00EB729A /* maps_tiles.cpp in Sources */,
+				5D2CDC2E27778B3A00EB729A /* spell_book.cpp in Sources */,
+				5D2CDC0F27778B3A00EB729A /* zzlib.cpp in Sources */,
+				5D2CDBA627778B3A00EB729A /* settings.cpp in Sources */,
+				5D2CDC0927778B3A00EB729A /* dialog_selectitems.cpp in Sources */,
+				5D2CDC2427778B3A00EB729A /* dialog_selectcount.cpp in Sources */,
+				5D2CDC4527778B3A00EB729A /* dialog_levelup.cpp in Sources */,
+				5D2CDB7C27778B3A00EB729A /* army_troop.cpp in Sources */,
+				5D2CDC0B27778B3A00EB729A /* dialog_arena.cpp in Sources */,
+				5D2CDC4327778B3A00EB729A /* objlava.cpp in Sources */,
+				5D2CDC3827778B3A00EB729A /* maps_objects.cpp in Sources */,
+				5D2CDC2827778B3A00EB729A /* spell_info.cpp in Sources */,
+				5D2CDBE927778B3A00EB729A /* battle_army.cpp in Sources */,
+				5D2CDB9027778B3A00EB729A /* timing.cpp in Sources */,
+				5D2CDB9727778B3A00EB729A /* captain.cpp in Sources */,
+				5D2CDBF527778B3A00EB729A /* heroes_meeting.cpp in Sources */,
+				5D2CDC5227778B3B00EB729A /* dir.cpp in Sources */,
+				5D2CDC3F27778B3A00EB729A /* dialog_guardian.cpp in Sources */,
+				5D2CDBB727778B3A00EB729A /* ui_text.cpp in Sources */,
+				5D2CDB8B27778B3A00EB729A /* til2img.cpp in Sources */,
+				5D2CDB7E27778B3A00EB729A /* interface_border.cpp in Sources */,
+				5D2CDBC027778B3A00EB729A /* interface_buttons.cpp in Sources */,
+				5D2CDBC727778B3A00EB729A /* battle_bridge.cpp in Sources */,
+				5D2CDC2727778B3A00EB729A /* battle_arena.cpp in Sources */,
+				5D2CDC2127778B3A00EB729A /* mus.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +1991,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/SDL2/include\"";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/SDL2/include\"",
+					"\"$(SRCROOT)/../src\"/**",
+				);
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = metal;
@@ -494,7 +2022,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/SDL2/include\"";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/SDL2/include\"",
+					"\"$(SRCROOT)/../src\"/**",
+				);
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = metal;

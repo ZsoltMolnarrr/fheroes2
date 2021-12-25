@@ -9,16 +9,16 @@
 
 #include "SDL.h"
 
-#ifndef SDL_MAIN_HANDLED
-#ifdef main
-#undef main
-#endif
+//#ifndef SDL_MAIN_HANDLED
+//#ifdef main
+//#undef main
+//#endif
 
-int
-main(int argc, char *argv[])
-{
-    return SDL_UIKitRunApp(argc, argv, SDL_main);
-}
-#endif /* !SDL_MAIN_HANDLED */
+//int
+//main(int argc, char *argv[])
+//{
+//    return SDL_UIKitRunApp(argc, argv, SDL_main);
+//}
+//#endif /* !SDL_MAIN_HANDLED */
 
 /* vi: set ts=4 sw=4 expandtab: */
