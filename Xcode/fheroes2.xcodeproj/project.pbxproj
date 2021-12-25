@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		5D2CD9792777821E00EB729A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2CD9782777821E00EB729A /* Assets.xcassets */; };
 		5D2CD97C2777821E00EB729A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2CD97A2777821E00EB729A /* LaunchScreen.storyboard */; };
-		5D2CD9A6277783F500EB729A /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2CD994277782EF00EB729A /* SDL2.framework */; };
-		5D2CD9A7277783F500EB729A /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2CD994277782EF00EB729A /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5D2CD9AA2777840500EB729A /* libSDL2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2CD9A0277782EF00EB729A /* libSDL2.dylib */; };
-		5D2CD9AB2777840500EB729A /* libSDL2.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2CD9A0277782EF00EB729A /* libSDL2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5D2CD9AD2777844900EB729A /* SDL_uikit_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9AC2777844900EB729A /* SDL_uikit_main.c */; };
 		5D2CDB7927778A5C00EB729A /* fheroes2.ico in Resources */ = {isa = PBXBuildFile; fileRef = 5D2CD9D127778A2300EB729A /* fheroes2.ico */; };
 		5D2CDB7A27778A5C00EB729A /* fheroes2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2CD9CF27778A2300EB729A /* fheroes2.png */; };
@@ -32,7 +28,6 @@
 		5D2CDB8827778B3A00EB729A /* game_mainmenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA8F27778A2400EB729A /* game_mainmenu.cpp */; };
 		5D2CDB8927778B3A00EB729A /* dialog_quickinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAB927778A2400EB729A /* dialog_quickinfo.cpp */; };
 		5D2CDB8A27778B3A00EB729A /* world.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA7B27778A2400EB729A /* world.cpp */; };
-		5D2CDB8B27778B3A00EB729A /* til2img.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9B627778A2300EB729A /* til2img.cpp */; };
 		5D2CDB8C27778B3A00EB729A /* game_loadgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9527778A2400EB729A /* game_loadgame.cpp */; };
 		5D2CDB8D27778B3A00EB729A /* ground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA0D27778A2300EB729A /* ground.cpp */; };
 		5D2CDB8E27778B3A00EB729A /* dialog_game_settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAAD27778A2400EB729A /* dialog_game_settings.cpp */; };
@@ -54,7 +49,6 @@
 		5D2CDB9E27778B3A00EB729A /* game_video.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9227778A2400EB729A /* game_video.cpp */; };
 		5D2CDB9F27778B3A00EB729A /* battle_command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9FA27778A2300EB729A /* battle_command.cpp */; };
 		5D2CDBA027778B3A00EB729A /* maps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA0A27778A2300EB729A /* maps.cpp */; };
-		5D2CDBA127778B3A00EB729A /* bin2txt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9C327778A2300EB729A /* bin2txt.cpp */; };
 		5D2CDBA227778B3A00EB729A /* core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB4527778A2400EB729A /* core.cpp */; };
 		5D2CDBA327778B3A00EB729A /* dialog_message.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAC627778A2400EB729A /* dialog_message.cpp */; };
 		5D2CDBA427778B3A00EB729A /* interface_radar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAF827778A2400EB729A /* interface_radar.cpp */; };
@@ -65,7 +59,6 @@
 		5D2CDBA927778B3A00EB729A /* dialog_resourceinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAAF27778A2400EB729A /* dialog_resourceinfo.cpp */; };
 		5D2CDBAA27778B3A00EB729A /* heroes_spell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA3C27778A2300EB729A /* heroes_spell.cpp */; };
 		5D2CDBAB27778B3A00EB729A /* objwatr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA5C27778A2400EB729A /* objwatr.cpp */; };
-		5D2CDBAC27778B3A00EB729A /* xmi2mid_cli.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9B727778A2300EB729A /* xmi2mid_cli.cpp */; };
 		5D2CDBAD27778B3A00EB729A /* game_scenarioinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9D27778A2400EB729A /* game_scenarioinfo.cpp */; };
 		5D2CDBAE27778B3A00EB729A /* ai_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAE227778A2400EB729A /* ai_base.cpp */; };
 		5D2CDBAF27778B3A00EB729A /* ui_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAF727778A2400EB729A /* ui_base.cpp */; };
@@ -81,7 +74,6 @@
 		5D2CDBB927778B3A00EB729A /* color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA2527778A2300EB729A /* color.cpp */; };
 		5D2CDBBA27778B3A00EB729A /* monster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB3527778A2400EB729A /* monster.cpp */; };
 		5D2CDBBB27778B3A00EB729A /* resource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB2E27778A2400EB729A /* resource.cpp */; };
-		5D2CDBBC27778B3A00EB729A /* icn2img.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9C227778A2300EB729A /* icn2img.cpp */; };
 		5D2CDBBD27778B3A00EB729A /* dialog_box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAB727778A2400EB729A /* dialog_box.cpp */; };
 		5D2CDBBE27778B3A00EB729A /* mp2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA0727778A2300EB729A /* mp2.cpp */; };
 		5D2CDBBF27778B3A00EB729A /* agg_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB5727778A2500EB729A /* agg_file.cpp */; };
@@ -136,7 +128,6 @@
 		5D2CDBF027778B3A00EB729A /* heroes_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA3E27778A2300EB729A /* heroes_base.cpp */; };
 		5D2CDBF127778B3A00EB729A /* game_highscores.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA8A27778A2400EB729A /* game_highscores.cpp */; };
 		5D2CDBF227778B3A00EB729A /* dialog_settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAC527778A2400EB729A /* dialog_settings.cpp */; };
-		5D2CDBF327778B3A00EB729A /* extractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9C527778A2300EB729A /* extractor.cpp */; };
 		5D2CDBF427778B3A00EB729A /* system.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB5627778A2500EB729A /* system.cpp */; };
 		5D2CDBF527778B3A00EB729A /* heroes_meeting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA3A27778A2300EB729A /* heroes_meeting.cpp */; };
 		5D2CDBF627778B3A00EB729A /* campaign_scenariodata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB1327778A2400EB729A /* campaign_scenariodata.cpp */; };
@@ -220,7 +211,6 @@
 		5D2CDC4427778B3A00EB729A /* maps_fileinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA0E27778A2300EB729A /* maps_fileinfo.cpp */; };
 		5D2CDC4527778B3A00EB729A /* dialog_levelup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDABA27778A2400EB729A /* dialog_levelup.cpp */; };
 		5D2CDC4627778B3A00EB729A /* dialog_marketplace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDAB627778A2400EB729A /* dialog_marketplace.cpp */; };
-		5D2CDC4727778B3A00EB729A /* 82m2wav.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9BB27778A2300EB729A /* 82m2wav.cpp */; };
 		5D2CDC4827778B3A00EB729A /* army.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA5627778A2400EB729A /* army.cpp */; };
 		5D2CDC4927778B3A00EB729A /* icn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9DF27778A2300EB729A /* icn.cpp */; };
 		5D2CDC4A27778B3A00EB729A /* game_logo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDA9727778A2400EB729A /* game_logo.cpp */; };
@@ -234,78 +224,108 @@
 		5D2CDC5227778B3B00EB729A /* dir.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB5327778A2500EB729A /* dir.cpp */; };
 		5D2CDC5327778B3B00EB729A /* artifact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB2F27778A2400EB729A /* artifact.cpp */; };
 		5D2CDC5427778B3B00EB729A /* battle_only.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CD9E827778A2300EB729A /* battle_only.cpp */; };
+		5D2CDC91277790EB00EB729A /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2CDC8E277790D400EB729A /* libSDL2_mixer.a */; };
+		5D51CF4C277795FA00E4E76C /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D51CF3B2777959E00E4E76C /* SDL2.framework */; };
+		5D51CF4D277795FA00E4E76C /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D51CF3B2777959E00E4E76C /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5D51CF4F2777960E00E4E76C /* libSDL2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D51CF472777959E00E4E76C /* libSDL2.dylib */; };
+		5D51CF502777960E00E4E76C /* libSDL2.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D51CF472777959E00E4E76C /* libSDL2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5D51CF532777965E00E4E76C /* libSDL2_mixer.a in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2CDC8E277790D400EB729A /* libSDL2_mixer.a */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5D51CF542777979D00E4E76C /* smacker.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB6F27778A2500EB729A /* smacker.c */; };
+		5D51CF552777979D00E4E76C /* smk_bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB7727778A2500EB729A /* smk_bitstream.c */; };
+		5D51CF562777979D00E4E76C /* smk_hufftree.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CDB6E27778A2500EB729A /* smk_hufftree.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D2CD991277782EF00EB729A /* PBXContainerItemProxy */ = {
+		5D2CDC8D277790D400EB729A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D2CD984277782EF00EB729A /* SDL.xcodeproj */;
+			containerPortal = 5D2CDC86277790D400EB729A /* SDL_mixer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE1FA95407AF96B2004B6283;
+			remoteInfo = "libSDL_mixer-iOS";
+		};
+		5D2CDC8F277790D400EB729A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D2CDC86277790D400EB729A /* SDL_mixer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA5314F11FE0FE2E0025C9BE;
+			remoteInfo = "libSDL_mixer-tvOS";
+		};
+		5D51CF382777959E00E4E76C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D51CF2B2777959E00E4E76C /* SDL.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = BECDF66C0761BA81005FE872;
 			remoteInfo = Framework;
 		};
-		5D2CD993277782EF00EB729A /* PBXContainerItemProxy */ = {
+		5D51CF3A2777959E00E4E76C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D2CD984277782EF00EB729A /* SDL.xcodeproj */;
+			containerPortal = 5D51CF2B2777959E00E4E76C /* SDL.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = A7D88B5423E2437C00DCD162;
 			remoteInfo = "Framework-iOS";
 		};
-		5D2CD995277782EF00EB729A /* PBXContainerItemProxy */ = {
+		5D51CF3C2777959E00E4E76C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D2CD984277782EF00EB729A /* SDL.xcodeproj */;
+			containerPortal = 5D51CF2B2777959E00E4E76C /* SDL.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = A7D88D1523E24BED00DCD162;
 			remoteInfo = "Framework-tvOS";
 		};
-		5D2CD997277782EF00EB729A /* PBXContainerItemProxy */ = {
+		5D51CF3E2777959E00E4E76C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D2CD984277782EF00EB729A /* SDL.xcodeproj */;
+			containerPortal = 5D51CF2B2777959E00E4E76C /* SDL.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = BECDF6B30761BA81005FE872;
 			remoteInfo = "Static Library";
 		};
-		5D2CD999277782EF00EB729A /* PBXContainerItemProxy */ = {
+		5D51CF402777959E00E4E76C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D2CD984277782EF00EB729A /* SDL.xcodeproj */;
+			containerPortal = 5D51CF2B2777959E00E4E76C /* SDL.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = A7D88E5423E24D3B00DCD162;
 			remoteInfo = "Static Library-iOS";
 		};
-		5D2CD99B277782EF00EB729A /* PBXContainerItemProxy */ = {
+		5D51CF422777959E00E4E76C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D2CD984277782EF00EB729A /* SDL.xcodeproj */;
+			containerPortal = 5D51CF2B2777959E00E4E76C /* SDL.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = A769B23D23E259AE00872273;
 			remoteInfo = "Static Library-tvOS";
 		};
-		5D2CD99D277782EF00EB729A /* PBXContainerItemProxy */ = {
+		5D51CF442777959E00E4E76C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D2CD984277782EF00EB729A /* SDL.xcodeproj */;
+			containerPortal = 5D51CF2B2777959E00E4E76C /* SDL.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DB31407717554B71006C0E22;
 			remoteInfo = "Shared Library";
 		};
-		5D2CD99F277782EF00EB729A /* PBXContainerItemProxy */ = {
+		5D51CF462777959E00E4E76C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D2CD984277782EF00EB729A /* SDL.xcodeproj */;
+			containerPortal = 5D51CF2B2777959E00E4E76C /* SDL.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = A75FCEB323E25AB700529352;
 			remoteInfo = "Shared Library-iOS";
 		};
-		5D2CD9A1277782EF00EB729A /* PBXContainerItemProxy */ = {
+		5D51CF482777959E00E4E76C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D2CD984277782EF00EB729A /* SDL.xcodeproj */;
+			containerPortal = 5D51CF2B2777959E00E4E76C /* SDL.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = A75FD06C23E25AC700529352;
 			remoteInfo = "Shared Library-tvOS";
 		};
-		5D2CD9A3277782EF00EB729A /* PBXContainerItemProxy */ = {
+		5D51CF4A2777959E00E4E76C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D2CD984277782EF00EB729A /* SDL.xcodeproj */;
+			containerPortal = 5D51CF2B2777959E00E4E76C /* SDL.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = BECDF6BE0761BA81005FE872;
 			remoteInfo = "Standard DMG";
+		};
+		5D51CF512777964F00E4E76C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D2CDC86277790D400EB729A /* SDL_mixer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1FA90707AF96B2004B6283;
+			remoteInfo = "libSDL_mixer-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -316,8 +336,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5D2CD9A7277783F500EB729A /* SDL2.framework in Embed Frameworks */,
-				5D2CD9AB2777840500EB729A /* libSDL2.dylib in Embed Frameworks */,
+				5D51CF532777965E00E4E76C /* libSDL2_mixer.a in Embed Frameworks */,
+				5D51CF4D277795FA00E4E76C /* SDL2.framework in Embed Frameworks */,
+				5D51CF502777960E00E4E76C /* libSDL2.dylib in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,7 +349,6 @@
 		5D2CD9662777821D00EB729A /* fheroes2-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fheroes2-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2CD9782777821E00EB729A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D2CD97B2777821E00EB729A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5D2CD984277782EF00EB729A /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = SDL2/Xcode/SDL/SDL.xcodeproj; sourceTree = "<group>"; };
 		5D2CD9AC2777844900EB729A /* SDL_uikit_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_uikit_main.c; sourceTree = "<group>"; };
 		5D2CD9B227778A2300EB729A /* Makefile.mingw */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.mingw; sourceTree = "<group>"; };
 		5D2CD9B327778A2300EB729A /* Makefile.vita */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.vita; sourceTree = "<group>"; };
@@ -757,6 +777,9 @@
 		5D2CDB7627778A2500EB729A /* smk_hufftree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smk_hufftree.h; sourceTree = "<group>"; };
 		5D2CDB7727778A2500EB729A /* smk_bitstream.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = smk_bitstream.c; sourceTree = "<group>"; };
 		5D2CDB7827778A2500EB729A /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		5D2CDC86277790D400EB729A /* SDL_mixer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_mixer.xcodeproj; path = "SDL_mixer/Xcode-iOS/SDL_mixer.xcodeproj"; sourceTree = "<group>"; };
+		5D51CF2B2777959E00E4E76C /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = SDL/Xcode/SDL/SDL.xcodeproj; sourceTree = "<group>"; };
+		5D669E242777A151001C508A /* fheroes2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fheroes2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -764,8 +787,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2CD9A6277783F500EB729A /* SDL2.framework in Frameworks */,
-				5D2CD9AA2777840500EB729A /* libSDL2.dylib in Frameworks */,
+				5D2CDC91277790EB00EB729A /* libSDL2_mixer.a in Frameworks */,
+				5D51CF4C277795FA00E4E76C /* SDL2.framework in Frameworks */,
+				5D51CF4F2777960E00E4E76C /* libSDL2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,11 +799,12 @@
 		5D2CD95D2777821D00EB729A = {
 			isa = PBXGroup;
 			children = (
-				5D2CD9B127778A2300EB729A /* src */,
-				5D2CD984277782EF00EB729A /* SDL.xcodeproj */,
+				5D51CF2B2777959E00E4E76C /* SDL.xcodeproj */,
+				5D2CDC86277790D400EB729A /* SDL_mixer.xcodeproj */,
 				5D2CD9682777821D00EB729A /* fheroes2-iOS */,
-				5D2CD9672777821D00EB729A /* Products */,
 				5D2CD9A5277783F500EB729A /* Frameworks */,
+				5D2CD9672777821D00EB729A /* Products */,
+				5D2CD9B127778A2300EB729A /* src */,
 			);
 			sourceTree = "<group>";
 		};
@@ -799,23 +824,6 @@
 				5D2CD97A2777821E00EB729A /* LaunchScreen.storyboard */,
 			);
 			path = "fheroes2-iOS";
-			sourceTree = "<group>";
-		};
-		5D2CD985277782EF00EB729A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D2CD992277782EF00EB729A /* SDL2.framework */,
-				5D2CD994277782EF00EB729A /* SDL2.framework */,
-				5D2CD996277782EF00EB729A /* SDL2.framework */,
-				5D2CD998277782EF00EB729A /* libSDL2.a */,
-				5D2CD99A277782EF00EB729A /* libSDL2.a */,
-				5D2CD99C277782EF00EB729A /* libSDL2.a */,
-				5D2CD99E277782EF00EB729A /* libSDL2.dylib */,
-				5D2CD9A0277782EF00EB729A /* libSDL2.dylib */,
-				5D2CD9A2277782EF00EB729A /* libSDL2.dylib */,
-				5D2CD9A4277782EF00EB729A /* SDL2 */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		5D2CD9A5277783F500EB729A /* Frameworks */ = {
@@ -1145,39 +1153,40 @@
 		5D2CDA7D27778A2400EB729A /* game */ = {
 			isa = PBXGroup;
 			children = (
-				5D2CDA7E27778A2400EB729A /* game_newgame.cpp */,
-				5D2CDA7F27778A2400EB729A /* game_static.cpp */,
-				5D2CDA8027778A2400EB729A /* game_io.h */,
-				5D2CDA8127778A2400EB729A /* game_over.cpp */,
-				5D2CDA8227778A2400EB729A /* game_delays.h */,
 				5D2CDA8327778A2400EB729A /* difficulty.cpp */,
-				5D2CDA8427778A2400EB729A /* game_mainmenu_ui.h */,
-				5D2CDA8527778A2400EB729A /* game_video_type.h */,
-				5D2CDA8627778A2400EB729A /* game_over.h */,
-				5D2CDA8727778A2400EB729A /* game_credits.h */,
-				5D2CDA8827778A2400EB729A /* game_hotkeys.cpp */,
-				5D2CDA8927778A2400EB729A /* game_credits.cpp */,
-				5D2CDA8A27778A2400EB729A /* game_highscores.cpp */,
-				5D2CDA8B27778A2400EB729A /* game_static.h */,
-				5D2CDA8C27778A2400EB729A /* game_startgame.cpp */,
-				5D2CDA8D27778A2400EB729A /* game_campaign.cpp */,
-				5D2CDA8E27778A2400EB729A /* game_logo.h */,
-				5D2CDA8F27778A2400EB729A /* game_mainmenu.cpp */,
-				5D2CDA9027778A2400EB729A /* game.h */,
-				5D2CDA9127778A2400EB729A /* fheroes2.cpp */,
-				5D2CDA9227778A2400EB729A /* game_video.cpp */,
-				5D2CDA9327778A2400EB729A /* game_mode.h */,
-				5D2CDA9427778A2400EB729A /* game_io.cpp */,
-				5D2CDA9527778A2400EB729A /* game_loadgame.cpp */,
-				5D2CDA9627778A2400EB729A /* game_interface.cpp */,
-				5D2CDA9727778A2400EB729A /* game_logo.cpp */,
-				5D2CDA9827778A2400EB729A /* game_delays.cpp */,
 				5D2CDA9927778A2400EB729A /* difficulty.h */,
-				5D2CDA9A27778A2400EB729A /* game_mainmenu_ui.cpp */,
-				5D2CDA9B27778A2400EB729A /* game_video.h */,
+				5D2CDA9127778A2400EB729A /* fheroes2.cpp */,
+				5D669E242777A151001C508A /* fheroes2.h */,
+				5D2CDA8D27778A2400EB729A /* game_campaign.cpp */,
+				5D2CDA8927778A2400EB729A /* game_credits.cpp */,
+				5D2CDA8727778A2400EB729A /* game_credits.h */,
+				5D2CDA9827778A2400EB729A /* game_delays.cpp */,
+				5D2CDA8227778A2400EB729A /* game_delays.h */,
+				5D2CDA8A27778A2400EB729A /* game_highscores.cpp */,
+				5D2CDA8827778A2400EB729A /* game_hotkeys.cpp */,
+				5D2CDA9627778A2400EB729A /* game_interface.cpp */,
 				5D2CDA9C27778A2400EB729A /* game_interface.h */,
+				5D2CDA9427778A2400EB729A /* game_io.cpp */,
+				5D2CDA8027778A2400EB729A /* game_io.h */,
+				5D2CDA9527778A2400EB729A /* game_loadgame.cpp */,
+				5D2CDA9727778A2400EB729A /* game_logo.cpp */,
+				5D2CDA8E27778A2400EB729A /* game_logo.h */,
+				5D2CDA9A27778A2400EB729A /* game_mainmenu_ui.cpp */,
+				5D2CDA8427778A2400EB729A /* game_mainmenu_ui.h */,
+				5D2CDA8F27778A2400EB729A /* game_mainmenu.cpp */,
+				5D2CDA9327778A2400EB729A /* game_mode.h */,
+				5D2CDA7E27778A2400EB729A /* game_newgame.cpp */,
+				5D2CDA8127778A2400EB729A /* game_over.cpp */,
+				5D2CDA8627778A2400EB729A /* game_over.h */,
 				5D2CDA9D27778A2400EB729A /* game_scenarioinfo.cpp */,
+				5D2CDA8C27778A2400EB729A /* game_startgame.cpp */,
+				5D2CDA7F27778A2400EB729A /* game_static.cpp */,
+				5D2CDA8B27778A2400EB729A /* game_static.h */,
+				5D2CDA8527778A2400EB729A /* game_video_type.h */,
+				5D2CDA9227778A2400EB729A /* game_video.cpp */,
+				5D2CDA9B27778A2400EB729A /* game_video.h */,
 				5D2CDA9E27778A2400EB729A /* game.cpp */,
+				5D2CDA9027778A2400EB729A /* game.h */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -1484,6 +1493,32 @@
 			path = libsmacker;
 			sourceTree = "<group>";
 		};
+		5D2CDC87277790D400EB729A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CDC8E277790D400EB729A /* libSDL2_mixer.a */,
+				5D2CDC90277790D400EB729A /* libSDL2_mixer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D51CF2C2777959E00E4E76C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D51CF392777959E00E4E76C /* SDL2.framework */,
+				5D51CF3B2777959E00E4E76C /* SDL2.framework */,
+				5D51CF3D2777959E00E4E76C /* SDL2.framework */,
+				5D51CF3F2777959E00E4E76C /* libSDL2.a */,
+				5D51CF412777959E00E4E76C /* libSDL2.a */,
+				5D51CF432777959E00E4E76C /* libSDL2.a */,
+				5D51CF452777959E00E4E76C /* libSDL2.dylib */,
+				5D51CF472777959E00E4E76C /* libSDL2.dylib */,
+				5D51CF492777959E00E4E76C /* libSDL2.dylib */,
+				5D51CF4B2777959E00E4E76C /* SDL2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1499,6 +1534,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5D51CF522777964F00E4E76C /* PBXTargetDependency */,
 			);
 			name = "fheroes2-iOS";
 			productName = fheroes2;
@@ -1532,8 +1568,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 5D2CD985277782EF00EB729A /* Products */;
-					ProjectRef = 5D2CD984277782EF00EB729A /* SDL.xcodeproj */;
+					ProductGroup = 5D51CF2C2777959E00E4E76C /* Products */;
+					ProjectRef = 5D51CF2B2777959E00E4E76C /* SDL.xcodeproj */;
+				},
+				{
+					ProductGroup = 5D2CDC87277790D400EB729A /* Products */;
+					ProjectRef = 5D2CDC86277790D400EB729A /* SDL_mixer.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1544,74 +1584,88 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		5D2CD992277782EF00EB729A /* SDL2.framework */ = {
+		5D2CDC8E277790D400EB729A /* libSDL2_mixer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDL2_mixer.a;
+			remoteRef = 5D2CDC8D277790D400EB729A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D2CDC90277790D400EB729A /* libSDL2_mixer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDL2_mixer.a;
+			remoteRef = 5D2CDC8F277790D400EB729A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D51CF392777959E00E4E76C /* SDL2.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SDL2.framework;
-			remoteRef = 5D2CD991277782EF00EB729A /* PBXContainerItemProxy */;
+			remoteRef = 5D51CF382777959E00E4E76C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5D2CD994277782EF00EB729A /* SDL2.framework */ = {
+		5D51CF3B2777959E00E4E76C /* SDL2.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SDL2.framework;
-			remoteRef = 5D2CD993277782EF00EB729A /* PBXContainerItemProxy */;
+			remoteRef = 5D51CF3A2777959E00E4E76C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5D2CD996277782EF00EB729A /* SDL2.framework */ = {
+		5D51CF3D2777959E00E4E76C /* SDL2.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SDL2.framework;
-			remoteRef = 5D2CD995277782EF00EB729A /* PBXContainerItemProxy */;
+			remoteRef = 5D51CF3C2777959E00E4E76C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5D2CD998277782EF00EB729A /* libSDL2.a */ = {
+		5D51CF3F2777959E00E4E76C /* libSDL2.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libSDL2.a;
-			remoteRef = 5D2CD997277782EF00EB729A /* PBXContainerItemProxy */;
+			remoteRef = 5D51CF3E2777959E00E4E76C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5D2CD99A277782EF00EB729A /* libSDL2.a */ = {
+		5D51CF412777959E00E4E76C /* libSDL2.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libSDL2.a;
-			remoteRef = 5D2CD999277782EF00EB729A /* PBXContainerItemProxy */;
+			remoteRef = 5D51CF402777959E00E4E76C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5D2CD99C277782EF00EB729A /* libSDL2.a */ = {
+		5D51CF432777959E00E4E76C /* libSDL2.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libSDL2.a;
-			remoteRef = 5D2CD99B277782EF00EB729A /* PBXContainerItemProxy */;
+			remoteRef = 5D51CF422777959E00E4E76C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5D2CD99E277782EF00EB729A /* libSDL2.dylib */ = {
+		5D51CF452777959E00E4E76C /* libSDL2.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
 			path = libSDL2.dylib;
-			remoteRef = 5D2CD99D277782EF00EB729A /* PBXContainerItemProxy */;
+			remoteRef = 5D51CF442777959E00E4E76C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5D2CD9A0277782EF00EB729A /* libSDL2.dylib */ = {
+		5D51CF472777959E00E4E76C /* libSDL2.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
 			path = libSDL2.dylib;
-			remoteRef = 5D2CD99F277782EF00EB729A /* PBXContainerItemProxy */;
+			remoteRef = 5D51CF462777959E00E4E76C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5D2CD9A2277782EF00EB729A /* libSDL2.dylib */ = {
+		5D51CF492777959E00E4E76C /* libSDL2.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
 			path = libSDL2.dylib;
-			remoteRef = 5D2CD9A1277782EF00EB729A /* PBXContainerItemProxy */;
+			remoteRef = 5D51CF482777959E00E4E76C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5D2CD9A4277782EF00EB729A /* SDL2 */ = {
+		5D51CF4B2777959E00E4E76C /* SDL2 */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = SDL2;
-			remoteRef = 5D2CD9A3277782EF00EB729A /* PBXContainerItemProxy */;
+			remoteRef = 5D51CF4A2777959E00E4E76C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1646,7 +1700,6 @@
 				5D2CDBBA27778B3A00EB729A /* monster.cpp in Sources */,
 				5D2CDC1127778B3A00EB729A /* ai_normal_castle.cpp in Sources */,
 				5D2CDC0A27778B3A00EB729A /* maps_tiles_quantity.cpp in Sources */,
-				5D2CDC4727778B3A00EB729A /* 82m2wav.cpp in Sources */,
 				5D2CDC2D27778B3A00EB729A /* ui_language.cpp in Sources */,
 				5D2CDB9E27778B3A00EB729A /* game_video.cpp in Sources */,
 				5D2CDC3027778B3A00EB729A /* bin_info.cpp in Sources */,
@@ -1671,7 +1724,6 @@
 				5D2CDBCD27778B3A00EB729A /* ai_common.cpp in Sources */,
 				5D2CDC0327778B3A00EB729A /* smk_decoder.cpp in Sources */,
 				5D2CDC3C27778B3A00EB729A /* pal.cpp in Sources */,
-				5D2CDBAC27778B3A00EB729A /* xmi2mid_cli.cpp in Sources */,
 				5D2CDBA927778B3A00EB729A /* dialog_resourceinfo.cpp in Sources */,
 				5D2CDBBB27778B3A00EB729A /* resource.cpp in Sources */,
 				5D2CDC2927778B3A00EB729A /* battle_cell.cpp in Sources */,
@@ -1686,7 +1738,6 @@
 				5D2CDBB527778B3A00EB729A /* trees.cpp in Sources */,
 				5D2CDBB227778B3A00EB729A /* battle_interface.cpp in Sources */,
 				5D2CDC1927778B3A00EB729A /* interface_events.cpp in Sources */,
-				5D2CDBA127778B3A00EB729A /* bin2txt.cpp in Sources */,
 				5D2CDBE027778B3A00EB729A /* dialog_language_selection.cpp in Sources */,
 				5D2CDC2327778B3A00EB729A /* dialog_resolution.cpp in Sources */,
 				5D2CDBF727778B3A00EB729A /* skill.cpp in Sources */,
@@ -1701,7 +1752,6 @@
 				5D2CDC1727778B3A00EB729A /* game_startgame.cpp in Sources */,
 				5D2CDBC627778B3A00EB729A /* logging.cpp in Sources */,
 				5D2CDC0C27778B3A00EB729A /* dialog_skillinfo.cpp in Sources */,
-				5D2CDBBC27778B3A00EB729A /* icn2img.cpp in Sources */,
 				5D2CDBAE27778B3A00EB729A /* ai_base.cpp in Sources */,
 				5D2CDC5427778B3B00EB729A /* battle_only.cpp in Sources */,
 				5D2CDC1C27778B3A00EB729A /* position.cpp in Sources */,
@@ -1709,7 +1759,6 @@
 				5D2CDBD127778B3A00EB729A /* objswmp.cpp in Sources */,
 				5D2CDBBF27778B3A00EB729A /* agg_file.cpp in Sources */,
 				5D2CDBCA27778B3A00EB729A /* artifact_ultimate.cpp in Sources */,
-				5D2CDBF327778B3A00EB729A /* extractor.cpp in Sources */,
 				5D2CDBAB27778B3A00EB729A /* objwatr.cpp in Sources */,
 				5D2CDBF227778B3A00EB729A /* dialog_settings.cpp in Sources */,
 				5D2CDBFE27778B3A00EB729A /* heroes_recruits.cpp in Sources */,
@@ -1737,6 +1786,7 @@
 				5D2CDB8727778B3A00EB729A /* speed.cpp in Sources */,
 				5D2CDB9127778B3A00EB729A /* game_hotkeys.cpp in Sources */,
 				5D2CDC1227778B3A00EB729A /* text.cpp in Sources */,
+				5D51CF562777979D00E4E76C /* smk_hufftree.c in Sources */,
 				5D2CDBBD27778B3A00EB729A /* dialog_box.cpp in Sources */,
 				5D2CDBE327778B3A00EB729A /* objtown.cpp in Sources */,
 				5D2CDBE527778B3A00EB729A /* battle_tower.cpp in Sources */,
@@ -1793,6 +1843,7 @@
 				5D2CDB8827778B3A00EB729A /* game_mainmenu.cpp in Sources */,
 				5D2CDB9827778B3A00EB729A /* image.cpp in Sources */,
 				5D2CDBC127778B3A00EB729A /* audio.cpp in Sources */,
+				5D51CF552777979D00E4E76C /* smk_bitstream.c in Sources */,
 				5D2CDBED27778B3A00EB729A /* game.cpp in Sources */,
 				5D2CDBDD27778B3A00EB729A /* castle_building.cpp in Sources */,
 				5D2CDB8527778B3A00EB729A /* heroes_dialog.cpp in Sources */,
@@ -1802,6 +1853,7 @@
 				5D2CDC4C27778B3B00EB729A /* difficulty.cpp in Sources */,
 				5D2CDB7D27778B3A00EB729A /* dialog_file.cpp in Sources */,
 				5D2CDB9527778B3A00EB729A /* spell.cpp in Sources */,
+				5D51CF542777979D00E4E76C /* smacker.c in Sources */,
 				5D2CDBB327778B3A00EB729A /* game_interface.cpp in Sources */,
 				5D2CDBAF27778B3A00EB729A /* ui_base.cpp in Sources */,
 				5D2CDB8F27778B3A00EB729A /* objgras.cpp in Sources */,
@@ -1848,7 +1900,6 @@
 				5D2CDC5227778B3B00EB729A /* dir.cpp in Sources */,
 				5D2CDC3F27778B3A00EB729A /* dialog_guardian.cpp in Sources */,
 				5D2CDBB727778B3A00EB729A /* ui_text.cpp in Sources */,
-				5D2CDB8B27778B3A00EB729A /* til2img.cpp in Sources */,
 				5D2CDB7E27778B3A00EB729A /* interface_border.cpp in Sources */,
 				5D2CDBC027778B3A00EB729A /* interface_buttons.cpp in Sources */,
 				5D2CDBC727778B3A00EB729A /* battle_bridge.cpp in Sources */,
@@ -1858,6 +1909,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D51CF522777964F00E4E76C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libSDL_mixer-iOS";
+			targetProxy = 5D51CF512777964F00E4E76C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5D2CD97A2777821E00EB729A /* LaunchScreen.storyboard */ = {
@@ -1992,8 +2051,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/SDL2/include\"",
+					"\"$(SRCROOT)/SDL/include\"",
 					"\"$(SRCROOT)/../src\"/**",
+					"\"$(SRCROOT)/SDL_mixer/include\"",
+					"\"$(SRCROOT)/../src/thirdparty\"/**",
 				);
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -2007,6 +2068,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-lz";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shatteredsun.fheroes2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2023,8 +2085,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/SDL2/include\"",
+					"\"$(SRCROOT)/SDL/include\"",
 					"\"$(SRCROOT)/../src\"/**",
+					"\"$(SRCROOT)/SDL_mixer/include\"",
+					"\"$(SRCROOT)/../src/thirdparty\"/**",
 				);
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -2038,6 +2102,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-lz";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shatteredsun.fheroes2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

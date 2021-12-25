@@ -146,11 +146,11 @@ namespace
     };
 }
 
-#if defined( _MSC_VER )
-#undef main
-#endif
+//#if defined( _MSC_VER )
+//#undef main
+//#endif
 
-int main( int argc, char ** argv )
+int fheroes_main(int argc, char *argv[])
 {
     try {
         const fheroes2::HardwareInitializer hardwareInitializer;
