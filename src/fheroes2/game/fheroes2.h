@@ -8,6 +8,12 @@
 #ifndef fheroes2_h
 #define fheroes2_h
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 int fheroes_main(int argc, char *argv[]);
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* fheroes2_h */

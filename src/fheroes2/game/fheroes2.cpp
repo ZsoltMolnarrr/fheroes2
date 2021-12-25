@@ -44,6 +44,7 @@
 #endif
 #include "ui_tool.h"
 #include "zzlib.h"
+#include "fheroes2.h"
 
 namespace
 {
@@ -146,9 +147,9 @@ namespace
     };
 }
 
-//#if defined( _MSC_VER )
-//#undef main
-//#endif
+#if defined( _MSC_VER )
+#undef main
+#endif
 
 int fheroes_main(int argc, char *argv[])
 {

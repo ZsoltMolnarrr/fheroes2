@@ -18,7 +18,6 @@
 int
 main(int argc, char *argv[])
 {
-//    return SDL_UIKitRunApp(argc, argv, SDL_main);
     return SDL_UIKitRunApp(argc, argv, fheroes_main);
 }
 #endif /* !SDL_MAIN_HANDLED */
